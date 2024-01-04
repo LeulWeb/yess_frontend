@@ -1,0 +1,76 @@
+/* styles/globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.container {
+  @apply max-w-screen-xl mx-auto px-4;
+}
+
+
+
+/* nav.scrolled {
+  @apply lg:fixed lg:w-[100%] lg:top-0 bg-white text-black; 
+}
+
+nav h1 {
+  @apply m-0 text-2xl;
+} */
+
+ul {
+  @apply list-none m-0 p-0 flex items-center;
+}
+
+li {
+  @apply mx-4 cursor-pointer;
+}
+
+body, h1, li, p{
+   font-family: 'Crimson Text', serif;
+}
+.cri{
+  font-family: 'Crimson Text', serif;
+}
+p{
+ font-size:20px;
+}
+
+.pop{
+  font-family: 'Poppins', sans-serif;
+}
+.foot{
+  background-image: url('../app/assets/footer.jpg');
+}
+.faq{
+  background-image: url('../app/assets/faq.jpg');
+}
+.story{
+  background-image: url('../app/assets/story.jpg');
+}
+.blue{
+  background-image: url('../app/assets/blue.jpg');
+}
+.win{
+  background-image: url('../app/assets/win.jpg');
+}
+.pod{
+height: 191px;
+top: 775px;
+left: 49px;
+border-radius: 16px;
+
+}
+.imo{
+  width: 181px;
+height: 191px;
+top: 775px;
+left: 49px;
+border-radius: 16px;
+
+}
