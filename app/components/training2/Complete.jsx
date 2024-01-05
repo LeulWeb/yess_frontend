@@ -8,15 +8,15 @@ const Complete = () => {
   return (
     <div>
       <div className="grid grid-cols-2 gap-10 py-5 px-5">
-        <div>
-          <form>
-            <label
+        {/* <div>
+          <form> */}
+            {/* <label
               for="default-search"
               class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
             >
               Search
-            </label>
-            <div class="relative">
+            </label> */}
+            {/* <div class="relative">
               <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                 <svg
                   class="w-4 h-4 text-gray-500 dark:text-gray-400"
@@ -41,17 +41,17 @@ const Complete = () => {
                 placeholder="Search Mockups, Logos..."
                 required
               />
-            </div>
-          </form>
-        </div>
-        <div className="lg:ml-10 flex justify-start items-center flex-start">
+            </div> */}
+          {/* </form>
+        </div> */}
+        {/* <div className="lg:ml-10 flex justify-start items-center flex-start">
           <button className="flex gap-3 justify-center items-start bg-gray-400 w-32 rounded py-2.5 pt-1 px-3 text-gray-800">
             Sort <IoFilterSharp size={20} />
           </button>
-        </div>
+        </div> */}
       </div>
       <div className=" py-10 bg-[#004dff] ">
-        <div className="bg-[#004dff] py-5">
+        {/* <div className="bg-[#004dff] py-5">
           <div className="lg:px-28">
             <div className="bg-[#0411ff] mx-4 lg:mx-[20px] rounded flex  justify-between items-center">
               <p className="lg:text-[50px] text-[20px] sm:text-[30px] md:text-[40px] px-2 md:pl-12 lg:mx-28 text-white">
@@ -62,7 +62,7 @@ const Complete = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="flex md:flex-row flex-col justify-between items-center lg:px-20">
           <div className="mx-4  flex flex-col sm:flex-row justify-start items-center py-10">
             <div className="rounded-full bg-white text-blue p-5 w-[200px] h-[200px] flex justify-center items-center">

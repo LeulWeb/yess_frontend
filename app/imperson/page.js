@@ -5,7 +5,7 @@ import Recent from '../components/training2/Recent';
 
 const Imperson = () => {
   return (
-    <div className=" overflow-x-hidden story text-black">
+    <div className=" overflow-hidden story text-black">
         <Complete />
         <Popular />
         <Recent />

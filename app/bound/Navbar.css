@@ -78,11 +78,11 @@
     opacity: 1;
     transition: all 0.5s ease;
   }
-  .offer{
+  /* .offer{
     background-color: #0041ff;
     border-radius: 0;
     @apply w-screen
-  }
+  } */
 
   .nav-menu.active {
     background: #0f172a;

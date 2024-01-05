@@ -7,17 +7,16 @@ import { FaRegStar } from 'react-icons/fa6';
 import { FaArrowRight } from "react-icons/fa";
 
 const Recent = () => {
-  const recent = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   return (
-    <div>
+    <div className="py-10">
       <div>
         <p className="text-[45px] font-bold text-start px-2 sm:px-6 md:px-12 lg:px-28">
           Recent Training
         </p>
         <div>
-          <div className="h-[80vh] carousel carousel-vertical rounded-box">
+          <div className="h-full rounded-box">
               <div
-                className="mx-10 my-5 carousel-item lg:h-[278px] overflow-hidden"
+                className="mx-10 my-10  lg:h-[278px]  overflow-hidden"
               >
                 <div className="flex flex-col md:flex-row gap-10  border-2 border-gray-300 shadow-xl shadow-transparent rounded-xl">
                   <Image
@@ -48,7 +47,7 @@ const Recent = () => {
               {/* Second Item */}
 
               <div
-                className="mx-10 my-5 carousel-item lg:h-[278px] overflow-hidden"
+                className="mx-10 my-5  lg:h-[278px] overflow-hidden"
               >
                 <div className="flex flex-col md:flex-row gap-10  border-2 border-gray-300 shadow-xl shadow-transparent rounded-xl">
                   <Image
