@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import you from '../../assets/you.jpg';
+import you from '../../assets/aboutwel.png';
 
 const Welcome = () => {
   return (
@@ -8,11 +8,8 @@ const Welcome = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 px-2 sm:px-6 md:px-12 lg:px-32 lg:mr-32 gap-10 py-20">
         <div className="md:col-span-2 flex flex-col px-2 md:px-4 lg:px-6">
         <h1 className="text-white text-[50px] text-center py-6 font-bold">Welcome</h1>
-          <p className="text-white text-center py-2 text-[20px]">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
-            veniam minima vero, nostrum facere impedit beatae delectus unde,
-            obcaecati quae veritatis deserunt, culpa maxime earum ea id
-            exercitationem at iste? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error eaque nulla, molestias similique tempore dolorem, quis dolorum iste necessitatibus nobis provident ipsa deleniti officiis maxime voluptatibus fugit debitis. Aspernatur, totam!
+          <p className="text-white py-2 text-[27px] font-bold leading-10 text-center">
+          Welcome to Yess Ethiopia, a non-profit charity organization committed to transforming the lives of the youth in Ethiopia. Yess Ethiopia addresses the critical issues of unemployment and lack of opportunities faced by the country's young population. 
           </p>
         </div>
         <div className="sm:py-24 lg:py-0  ml-2 sm:ml-6 md:ml-12 lg:ml-32">

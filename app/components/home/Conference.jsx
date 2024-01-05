@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { CiCalendarDate } from 'react-icons/ci';
-import footer from '../../assets/you.jpg';
+import footer from '../../assets/conf.png';
 import { CgEye } from 'react-icons/cg';
 import { FaArrowRight } from 'react-icons/fa6';
 

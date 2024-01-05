@@ -5,6 +5,7 @@ import tech from '../../assets/tech.png';
 import busi from '../../assets/busi.png';
 import emp from '../../assets/emp.png';
 import imp from '../../assets/imp.png';
+import Link from 'next/link';
 
 const View = () => {
   return (
@@ -23,10 +24,14 @@ const View = () => {
               Impersonal Skill
             </p>
             <p className="text-white px-4 text-center">
-            Training of behaviors, tactics, and strategies a person uses to interact.            </p>
-            <p className="text-[#0041ff] bg-white rounded-xl hover:bg-blue-200 cursor-pointer my-2 py-1 px-8 justify-center items-center flex text-center text-[23px]">
-              View More
+              Training of behaviors, tactics, and strategies a person uses to
+              interact.{' '}
             </p>
+            <Link href="/imperson">
+              <p className="text-[#0041ff] bg-white rounded-xl hover:bg-blue-200 cursor-pointer my-2 py-1 px-8 justify-center items-center flex text-center text-[23px]">
+                View More
+              </p>
+            </Link>
           </div>
         </div>
 
@@ -44,11 +49,15 @@ const View = () => {
               Scholarship
             </p>
             <p className="text-white px-4 text-center">
-              Join our scholarship programs to gain the info needed to explore in the world of education
+              Join our scholarship programs to gain the info needed to explore
+              in the world of education
             </p>
-            <p className="text-[#0041ff] bg-white rounded-xl hover:bg-blue-200 cursor-pointer my-2 py-1 px-8 justify-center items-center flex text-center text-[23px]">
-              View More
-            </p>
+
+            <Link href="/scholar">
+              <p className="text-[#0041ff] bg-white rounded-xl hover:bg-blue-200 cursor-pointer my-2 py-1 px-8 justify-center items-center flex text-center text-[23px]">
+                View More
+              </p>
+            </Link>
           </div>
         </div>
 
@@ -66,11 +75,14 @@ const View = () => {
               Employability
             </p>
             <p className="text-white px-4 text-center">
-              Prepare yourself for the job market with our Employability Skills training.
+              Prepare yourself for the job market with our Employability Skills
+              training.
             </p>
-            <p className="text-[#0041ff] bg-white rounded-xl hover:bg-blue-200 cursor-pointer my-2 py-1 px-8 justify-center items-center flex text-center text-[23px]">
-              View More
-            </p>
+            <Link href="/employee">
+              <p className="text-[#0041ff] bg-white rounded-xl hover:bg-blue-200 cursor-pointer my-2 py-1 px-8 justify-center items-center flex text-center text-[23px]">
+                View More
+              </p>
+            </Link>
           </div>
         </div>
 
@@ -88,15 +100,19 @@ const View = () => {
               Technical skill
             </p>
             <p className="text-white px-4 text-center">
-              Stay ahead in the ever-evolving tech industry with our technical skills training.
+              Stay ahead in the ever-evolving tech industry with our technical
+              skills training.
             </p>
-            <p className="text-[#0041ff] bg-white rounded-xl hover:bg-blue-200 cursor-pointer my-2 py-1 px-8 justify-center items-center flex text-center text-[23px]">
-              View More
-            </p>
+
+            <Link href="/technical">
+              <p className="text-[#0041ff] bg-white rounded-xl hover:bg-blue-200 cursor-pointer my-2 py-1 px-8 justify-center items-center flex text-center text-[23px]">
+                View More
+              </p>
+            </Link>
           </div>
         </div>
 
-        {/* Technical Skill */}
+        {/* Business Skill */}
         <div className="carousel-item bg-[#0041ff] flex flex-col justify-center items-center w-[300px] h-full mx-3 rounded-xl">
           <div className="py-2 flex flex-col items-center justify-center">
             <Image
@@ -113,9 +129,12 @@ const View = () => {
               Join our programs to gain the skils needed to thrive in the
               dynamic world of business
             </p>
-            <p className="text-[#0041ff] bg-white rounded-xl hover:bg-blue-200 cursor-pointer my-2 py-1 px-8 justify-center items-center flex text-center text-[23px]">
-              View More
-            </p>
+
+            <Link href="/business">
+              <p className="text-[#0041ff] bg-white rounded-xl hover:bg-blue-200 cursor-pointer my-2 py-1 px-8 justify-center items-center flex text-center text-[23px]">
+                View More
+              </p>
+            </Link>
           </div>
         </div>
       </div>

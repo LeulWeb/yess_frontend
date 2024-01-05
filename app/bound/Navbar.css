@@ -99,11 +99,11 @@
     display: table;
   }
 
-  .nav-links:hover {
+  /* .nav-links:hover {
     background-color: #0041ff;
     border-radius: 0;
     @apply w-screen
-  }
+  } */
 
   .navbar-logo {
     position: absolute;

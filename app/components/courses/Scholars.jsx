@@ -5,9 +5,9 @@ import emotion from '../../assets/emotion.png';
 import Image from 'next/image';
 import { FaRegStar } from 'react-icons/fa6';
 import { FaArrowRight } from "react-icons/fa";
+import Link from 'next/link';
 
 const Scholars = () => {
-  const recent = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   return (
     <div>
       <div>
@@ -37,9 +37,11 @@ const Scholars = () => {
                       </p>
                     </div>
                     <div className="flex flex-end flex-row justify-end items-center">
+                      <Link href='/scho'>
                       <button className=" md:py-2 text-[18px] flex justify-center items-center px-6 text-gray-600 rounded-xl mb-2 mr-3">
                         Video <FaArrowRight className="ml-2 mt-1 text-[#0041ff]"/>
                       </button>
+                      </Link>
                     </div>
                   </div>
                 </div>

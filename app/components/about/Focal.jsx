@@ -14,11 +14,8 @@ const Focal = () => {
             <h1 className="font-bold text-[50px] py-10 text-center pt-10">
               Yess Ethiopia
             </h1>
-            <p className="pop px-2 text-[25px] text-center lg:px-10">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-              inventore deserunt itaque non quisquam, debitis aperiam dolor
-              architecto voluptate assumenda tenetur ratione, labore eaque
-              explicabo. Magnam natus doloremque atque quos.
+            <p className="pop px-2 text-[25px] text-lg font-light leading-9 text-center lg:px-10">
+            Yess Ethiopia operates with dedicated focal points strategically placed in different cities and universities, both within Ethiopia and internationally. These focal points serve as vital connections between Yess Ethiopia and the communities it aims to support.
             </p>
           </div>
         </div>

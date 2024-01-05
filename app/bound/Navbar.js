@@ -82,9 +82,9 @@ function Navbar() {
                   >
                     <path
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="m1 1 4 4 4-4"
                     />
                   </svg>
@@ -100,7 +100,7 @@ function Navbar() {
                     aria-labelledby="dropdownDefaultButton"
                   >
                     <li>
-                      <Link href="/training" onClick={closeMobileMenu} className="block px-4 py-2 hover:text-blue-700">
+                      <Link href="/service" onClick={closeMobileMenu} className="block px-4 py-2 hover:text-blue-700">
                         Training
                       </Link>
                     </li>
@@ -176,7 +176,7 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <Link
-              href='/contact'
+              href='/join'
               className=' bg-[#0041ff] hover:bg-blue-800 hover:py-3 hover:px-10 hover:text-[20px] lg:hover:px-8 lg:hover:py-2  py-2 px-8 text-[16px] lg:text-[20px] rounded text-white'
               onClick={closeMobileMenu}
             >

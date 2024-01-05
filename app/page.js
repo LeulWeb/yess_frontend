@@ -33,11 +33,11 @@ const Home = () => {
         <Slide />
       {/* </div> */}
       <Input />
-      <Horizontal />
       <div className="overflow-x-hidden">
         <CallToAction2 />
       </div>
       <Conference />
+      <Horizontal />
       <div className="overflow-x-hidden">
         <Testimonial />
       </div>

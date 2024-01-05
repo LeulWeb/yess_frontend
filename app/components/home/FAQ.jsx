@@ -20,7 +20,7 @@ const FAQ = () => {
               <span className="text-black">1. What is YessEthiopia?</span>
               <svg
                 data-accordion-icon
-                className="w-5 h-5 rotate-180 text-black shrink-0 text-black"
+                className="w-5 h-5 rotate-180 text-black shrink-0 "
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -28,9 +28,9 @@ const FAQ = () => {
               >
                 <path
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M9 5 5 1 1 5"
                 />
               </svg>
@@ -69,8 +69,8 @@ const FAQ = () => {
                 <path
                   stroke="currentColor"
                   stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeinejoin="round"
+                  strokeidth="2"
                   d="M9 5 5 1 1 5"
                 />
               </svg>
@@ -108,9 +108,9 @@ const FAQ = () => {
               >
                 <path
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M9 5 5 1 1 5"
                 />
               </svg>
@@ -148,9 +148,9 @@ const FAQ = () => {
               >
                 <path
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M9 5 5 1 1 5"
                 />
               </svg>

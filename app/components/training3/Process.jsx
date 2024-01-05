@@ -1,5 +1,5 @@
 import React from 'react'
-import you from '../../assets/you.jpg';
+import you from '../../assets/perdev.png';
 import Image from 'next/image';
 import { GoGoal } from "react-icons/go";
 import { IoMdTime } from "react-icons/io";

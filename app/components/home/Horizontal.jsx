@@ -1,6 +1,4 @@
-"use client"
-
-
+'use client';
 
 // Horizontal.js
 import React, { useState } from 'react';
@@ -41,13 +39,17 @@ const Horizontal = () => {
   };
 
   return (
-    <div className="carousel-container carousel carousel-center h-[500px] py-5 bod lg:-ml-32">
-      <div className="image-options carousel-item w-screen h-[500px]">
-        {getCarouselItem(selectedInput - 2)}
-        {getCarouselItem(selectedInput - 1)}
-        {getCarouselItem(selectedInput)}
-        {getCarouselItem(selectedInput + 1)}
-        {getCarouselItem(selectedInput + 2)}
+    <div>
+      <p className="font-serif text-[50px] font-bold leading-13 text-center">Recommendation</p>
+      <p className="pop text-[28px] font-normal leading-9 text-center">Discover recommendations from professionals across sectors endorsing YESS Ethiopia. Join us in our mission for positive change.</p>
+      <div className="carousel-container carousel carousel-center h-[500px] py-5 bod lg:-ml-32">
+        <div className="image-options carousel-item w-screen h-[500px]">
+          {getCarouselItem(selectedInput - 2)}
+          {getCarouselItem(selectedInput - 1)}
+          {getCarouselItem(selectedInput)}
+          {getCarouselItem(selectedInput + 1)}
+          {getCarouselItem(selectedInput + 2)}
+        </div>
       </div>
     </div>
   );

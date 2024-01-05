@@ -59,6 +59,9 @@ p{
 .win{
   background-image: url('../app/assets/win.jpg');
 }
+.hero{
+  background-image: url('../app/assets/homeback.png');
+}
 .pod{
 height: 191px;
 top: 775px;

@@ -1,17 +1,15 @@
 import React from 'react';
+import bgImage from '../../assets/homeback.png';
 
 const HomeIntro = () => {
   return (
     <div className='overflow-x-hidden top-0'>
       <div
         className=" relative  hero min-h-full lg:h-screen lg:overflow-y-hidden"
-        style={{
-          backgroundImage:
-            'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)',
-        }}
+        style={{ backgroundImage: `url(${bgImage})` }}
       >
-        <div className="flex flex-col items-center justify-center mt-20 lg:mt-10 text-[#fff] py-10 lg:py-0  lg:mb-10">
-          <h1 className="font-bold text-[40px] lg:text-[50px] text-center mt-10 lg:mt-0">
+        <div className="flex flex-col items-center justify-center mt-20 lg:mt-10 text-[#000] py-10 lg:py-5  lg:mb-10">
+          <h1 className="font-bold text-[40px] lg:text-[50px] text-center mt-10 lg:pt-10">
             Welcome Yess Ethiopia
           </h1>
           <h1 className="text-[30px] lg:text-[40px] text-center font-bold py-5">
