@@ -1,12 +1,16 @@
 import React from 'react';
 import './slide.css'; // Adjust the path based on your project structure
 import footer from '../../assets/footer.jpg';
+import guid1 from '../../assets/guid1.png';
+import guid2 from '../../assets/guid1.png';
+import guid3 from '../../assets/guid1.png';
+
 import Image from 'next/image';
 
 const Slide = () => {
   return (
     <div className="body -mt-20">
-      <h1 className="title">Slider 3D con puro CSS</h1>
+      {/* <h1 className="title">Slider 3D con puro CSS</h1> */}
 
       <div className="container__slider">
         <div className="container">
@@ -23,7 +27,7 @@ const Slide = () => {
           <div className="cards">
             <label className="card" htmlFor="item-1" id="selector-1">
               <Image
-                src={footer}
+                src={guid1}
                 alt="sliders"
                 width={400}
                 height={400}
@@ -33,7 +37,7 @@ const Slide = () => {
             </label>
             <label className="card" htmlFor="item-2" id="selector-2">
               <Image
-                src={footer}
+                src={guid2}
                 alt="sliders"
                 width={400}
                 height={400}
@@ -42,7 +46,7 @@ const Slide = () => {
             </label>
             <label className="card" htmlFor="item-3" id="selector-3">
               <Image
-                src={footer}
+                src={guid3}
                 alt="sliders"
                 width={400}
                 height={400}

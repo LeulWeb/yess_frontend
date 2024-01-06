@@ -32,7 +32,9 @@ const Input = () => {
   const images = [volu, car, scho, train, boost, talent];
 
   return (
-    <div className="story w-full flex flex-col md:flex-row overflow-x-hidden justify-center items-center">
+  <div className="off bg-cover bg-no-repeat h-full">
+    <h1 className='tes text-center py-10 font-semibold'>Our Offerings</h1>
+      <div className=" w-full flex flex-col md:flex-row overflow-x-hidden justify-center items-center">
       <div className="lg:w-2/5 md:w-1/2 w-full px-1">
         <p className='font-bold text-center items-center text-[40px] py-5'>Yess Ethiopia</p>
         <p className="pop px-6 text-center text-[25px]">
@@ -44,7 +46,7 @@ const Input = () => {
       </div>
       <div className="lg:w-[65%] md:w-[50%] w-[100%]">
         <div
-          className="carousel carousel-vertical rounded-box h-[600px] w-full overflow-y-auto w-full mx-3"
+          className="carousel carousel-vertical rounded-box h-[600px] w-full overflow-y-auto  mx-3"
           ref={carouselRef}
         >
           {images.map((image, index) => (
@@ -69,6 +71,7 @@ const Input = () => {
         </div>
       </div>
     </div>
+  </div>
   );
 };
 

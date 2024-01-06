@@ -4,7 +4,7 @@ import Slide from './Slide'
 const Guidance = () => {
   return (
     <div>
-      <div className="px-4 lg:mx-12">
+      <div className="px-4 lg:mx-12 h-full">
       <h1 className="text-[#0041ff] tes font-bold">Scholarship Guidance</h1>
         <p className="text-black text-[28px] py-4">
           Welcome to Yess Ethiopia, a non-profit charity organization committed
@@ -12,7 +12,9 @@ const Guidance = () => {
           addresses the critical issues of unemployment and lack of
           opportunities face by the country's young population.
         </p>
+        <div className="py-20">
         <Slide />
+        </div>
       </div>
     </div>
   )
