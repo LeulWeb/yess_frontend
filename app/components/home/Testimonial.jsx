@@ -11,8 +11,7 @@ const Testimonial = () => {
     <div>
       <h1 className="text-center font-bold tes">Testimony</h1>
       <p className="px-4 sm:px-[6%] md:px-[8%] pop lg:mx-6 py-4 text-center pas">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-        blanditiis fugiat autem, nisi tenetur exercitationem.
+      Explore concise testimonials from diverse professionals highlighting the positive influence of YESS Ethiopia. Join us in shaping a meaningful impact.
       </p>
       <div className="py-10">
       <div className="carousel rounded-box">

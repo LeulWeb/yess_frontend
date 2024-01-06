@@ -17,7 +17,7 @@ const FAQ = () => {
               aria-expanded="true"
               aria-controls="accordion-collapse-body-1"
             >
-              <span className="text-black">1. What is YessEthiopia?</span>
+              <span className="text-black">1. What is Yess Ethiopia?</span>
               <svg
                 data-accordion-icon
                 className="w-5 h-5 rotate-180 text-black shrink-0 "
@@ -57,7 +57,7 @@ const FAQ = () => {
               aria-expanded="true"
               aria-controls="accordion-collapse-body-4"
             >
-              <span className="text-black">2. What is YessEthiopia?</span>
+              <span className="text-black">2. Is Yess Ethiopia charity organization?</span>
               <svg
                 data-accordion-icon
                 className="w-5 h-5 text-black rotate-180 shrink-0"
@@ -69,8 +69,8 @@ const FAQ = () => {
                 <path
                   stroke="currentColor"
                   strokeLinecap="round"
-                  strokeinejoin="round"
-                  strokewidth="2"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M9 5 5 1 1 5"
                 />
               </svg>
@@ -97,7 +97,7 @@ const FAQ = () => {
               aria-expanded="false"
               aria-controls="accordion-collapse-body-2"
             >
-              <span className="text-black">3. How is YessEthiopia?</span>
+              <span className="text-black">3. What initiatives does Yess Ethiopia undertake to solve the problem of unemployability?</span>
               <svg
                 data-accordion-icon
                 className="w-5 h-5 shrink-0 text-black"
@@ -137,7 +137,7 @@ const FAQ = () => {
               aria-expanded="false"
               aria-controls="accordion-collapse-body-3"
             >
-              <span className="text-black">4. When is YessEthiopia</span>
+              <span className="text-black">4.  Is Yess Ethiopia only focused on education?</span>
               <svg
                 data-accordion-icon
                 className="w-5 h-5 rotate-180 shrink-0 text-black"

@@ -12,7 +12,7 @@ const Video = () => {
           title="The best scholarship, job and business experience sharing forum Session 46"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
+          allowFullScreen
           className="rounded w-full h-[400px]"
         ></iframe>
       </div>
