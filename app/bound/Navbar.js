@@ -100,7 +100,7 @@ function Navbar() {
                     aria-labelledby="dropdownDefaultButton"
                   >
                     <li>
-                      <Link href="/service" onClick={closeMobileMenu} className="block px-4 py-2 hover:text-blue-700">
+                      <Link href="/training" onClick={closeMobileMenu} className="block px-4 py-2 hover:text-blue-700">
                         Training
                       </Link>
                     </li>

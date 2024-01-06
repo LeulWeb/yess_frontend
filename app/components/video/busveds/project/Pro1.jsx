@@ -11,16 +11,19 @@ const Pro1 = () => {
         <div className="lg:w-3/5">
           <p className="text-white text-[30px] text-center font-semibold py-4">
             {' '}
-            Project management training enhances efficiency. It hones planning, communication, and leadership skills, ensuring successful project delivery. This proficiency boosts career prospects, making individuals valuable assets in dynamic work settings.
+            Project management training enhances efficiency. It hones planning,
+            communication, and leadership skills, ensuring successful project
+            delivery. This proficiency boosts career prospects, making
+            individuals valuable assets in dynamic work settings.
           </p>
           <div className="flex justify-between items-center text-white px-20 pt-5">
             <div className="flex justify-center items-center gap-5">
               <GoGoal size={40} />
-              <p className="text-[20px]">3 Lessons</p>
+              <p className="text-[20px]">4 Lessons</p>
             </div>
             <div className="flex justify-center items-center gap-5">
               <IoMdTime size={40} />
-              <p className="text-[20px]">1hr 30min</p>
+              <p className="text-[20px]">3hr 30min</p>
             </div>
           </div>
         </div>

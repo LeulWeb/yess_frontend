@@ -1,14 +1,18 @@
-import React from 'react'
-import Student from '../components/training/Student';
-import Chapter from '../components/training/Chapter';
+import React from 'react';
+import Why from '../components/training/Why';
+import Comming from '../components/training/Comming';
+import View from '../components/training/View';
+import BTraining from '../components/training/BTraining';
 
-const Training = () => {
-  return (
-<div className=' story'>
-    <Student />
-    <Chapter />
-</div>
-  )
+const Service =()=>{
+    return(
+        <div className=' overflow-x-hidden'>
+            <Why />
+            <Comming />
+            <View />
+            <BTraining />
+        </div>
+    )
 }
 
-export default Training;
+export default Service;
