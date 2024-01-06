@@ -8,8 +8,8 @@ import Image from 'next/image';
 
 const Testimonial = () => {
   return (
-    <div>
-      <h1 className="text-center font-bold tes">Testimony</h1>
+    <div className="test bg-cover bg-no-repeat">
+      <h1 className="text-center font-bold tes">Testimonies</h1>
       <p className="px-4 sm:px-[6%] md:px-[8%] pop lg:mx-6 py-4 text-center pas">
       Explore concise testimonials from diverse professionals highlighting the positive influence of YESS Ethiopia. Join us in shaping a meaningful impact.
       </p>

@@ -36,7 +36,7 @@ const Partners = () => {
           </button>
         </div>
         <div>
-          <h1 className="text-[#0041ff] py-3 text-center">
+          <h1 className="text-[#0041ff] tes py-3 text-center">
             Our Partners
           </h1>
           <div className="carousel carousel-center max-w-full p-4 space-x-4 bg-white rounded-box">

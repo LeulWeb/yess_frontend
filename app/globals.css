@@ -105,6 +105,24 @@ body, h1, li, p{
 .hero{
   background-image: url('../app/assets/homeback.png');
 }
+.test{
+  background-image: url('../app/assets/testi.png');
+}
+.confe{
+  background-image: url('../app/assets/confe.png');
+}
+.doc{
+  background-image: url('../app/assets/doc.png');
+}
+.med{
+  background-image: url('../app/assets/med.png');
+}
+.off{
+  background-image: url('../app/assets/off.png');
+}
+.achi{
+  background-image: url('../app/assets/achi.png');
+}
 .pod{
 height: 191px;
 top: 775px;
@@ -119,4 +137,136 @@ top: 775px;
 left: 49px;
 border-radius: 16px;
 
+}
+
+/* Default style for .spa class */
+.spa {
+  font-size: 30px;
+  margin-left: -20px;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .spa {
+    font-size: 20px; /* Adjust the font size for small screens */
+    margin-left:-10px;
+  }
+}
+
+/* Media query for medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .spa {
+    font-size: 26px; /* Adjust the font size for medium screens */
+    margin-left: -14px;
+  }
+}
+
+/* Default style for .emb class */
+.emb {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .emb {
+    font-size: 18px; /* Adjust the font size for smaller screens */
+    line-height: 28px; /* Adjust the line height for smaller screens */
+  }
+}
+
+.sco {
+  grid-column: span 1;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+@media (min-width: 640px) {
+  .sco {
+    grid-column: span 2;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+}
+
+@media (min-width: 768px) {
+  .sco {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sco {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+/* Default styles for larger devices */
+.sca {
+  width: 844px;
+  height: 493.35px;
+  top: 82.09px;
+}
+
+/* Media query for smaller devices */
+@media screen and (max-width: 767px) {
+  .sca {
+    width: 100%; /* Adjust the width for smaller screens */
+    height: auto; /* Let the height adjust proportionally */
+    top: 0; /* Adjust the top position for smaller screens */
+  }
+}
+
+/* Default styles for the "sco" class */
+.sci {
+  /* Your other styles for the "sco" class go here */
+  font-size:18px;
+}
+
+/* Media query for large screens and above */
+@media screen and (min-width: 992px) {
+  .sci {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+
+/* Default styles for the "jon" class */
+.jon {
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 767px) {
+  .jon {
+    font-size: 24px; /* Adjust font size for small screens */
+    padding-left: 10px; /* Adjust left padding for small screens */
+    padding-right: 10px; /* Adjust right padding for small screens */
+  }
+}
+
+/* Media query for medium screens */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .jon {
+    font-size: 28px; /* Adjust font size for medium screens */
+    padding-left: 15px; /* Adjust left padding for medium screens */
+    padding-right: 15px; /* Adjust right padding for medium screens */
+  }
+}
+
+/* Media query for large screens */
+@media screen and (min-width: 992px) {
+  .jon {
+    font-size: 30px; /* Reset font size for large screens */
+    padding-left: 20px; /* Reset left padding for large screens */
+    padding-right: 20px; /* Reset right padding for large screens */
+  }
 }

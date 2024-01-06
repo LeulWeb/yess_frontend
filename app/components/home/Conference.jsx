@@ -8,7 +8,7 @@ import { FaArrowRight } from 'react-icons/fa6';
 const Conference = () => {
   const news = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
   return (
-    <div>
+    <div className='confe bg-cover bg-no-repeat'>
       <div className="py-10">
         <p className="text-[45px] font-bold text-center px-2 sm:px-6 md:px-12 lg:px-28">
           {' '}

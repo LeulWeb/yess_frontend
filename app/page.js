@@ -9,6 +9,7 @@ import Horizontal from './components/home/Horizontal';
 import Input from './components/home/Input';
 import Media from './components/home/Media';
 import Partners from './components/home/Partners';
+import Reco from './components/home/Reco';
 import Slide from './components/home/Slide';
 import Testimonial from './components/home/Testimonial';
 import React from 'react';
@@ -38,6 +39,7 @@ const Home = () => {
       </div>
       <Conference />
       <Horizontal />
+      <Reco />
       <div className="overflow-x-hidden">
         <Testimonial />
       </div>
