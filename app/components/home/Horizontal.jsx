@@ -40,7 +40,7 @@ const Horizontal = () => {
 
   return (
     <div>
-      <p className="font-serif text-[50px] font-bold leading-13 text-center">Recommendation</p>
+      <h1 className="font-serif tes font-bold leading-13 text-center">Recommendation</h1>
       <p className="pop text-[28px] font-normal leading-9 text-center">Discover recommendations from professionals across sectors endorsing YESS Ethiopia. Join us in our mission for positive change.</p>
       <div className="carousel-container carousel carousel-center h-[500px] py-5 bod lg:-ml-32">
         <div className="image-options carousel-item w-screen h-[500px]">

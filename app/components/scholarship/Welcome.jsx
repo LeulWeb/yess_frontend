@@ -7,8 +7,8 @@ const Welcome = () => {
     <div className="blue">
             <div className=' flex justify-center items-center flex-col lg:flex-row py-10 gap-10 px-10 min-h-[80vh]'>
                 <div  className="lg:w-3/5 px-4">
-                    <h1 className='text-white font-bold text-[50px] text-center'>Welcome to Our Scholarship</h1>
-                    <p className='text-white text-[28px] text-center font-[700px] py-4'>At Yess Ethiopia, wea re dedicated to providing valuable information
+                    <h1 className='text-white font-bold tes text-center'>Welcome to Our Scholarship</h1>
+                    <p className='text-white text-[28px] text-center font-[700px] py-4'>At Yess Ethiopia, we a re dedicated to providing valuable information
             about new scholarship opportunities and offering guidance to
             students seeking financial support for their education. Our
             Scholarship Hub is your go-to resource for the latest updates and

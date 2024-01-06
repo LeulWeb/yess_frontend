@@ -3,8 +3,8 @@ import React from 'react';
 const FAQ = () => {
   return (
     <div className="faq h-full ">
-      <div className=" px-2 md:mx-10 lg:mx-24 text-white py-10 text-[30px] text-black">
-        <h1 className="text-center font-bold text-[60px] pb-10 pt-4 text-white">
+      <div className=" px-2 md:mx-10 lg:mx-24 py-10 text-[30px] text-black">
+        <h1 className="text-center font-bold tes  pb-10 pt-4 text-white">
           FAQ
         </h1>
 
@@ -68,9 +68,9 @@ const FAQ = () => {
               >
                 <path
                   stroke="currentColor"
-                  stroke-linecap="round"
+                  strokeLinecap="round"
                   strokeinejoin="round"
-                  strokeidth="2"
+                  strokewidth="2"
                   d="M9 5 5 1 1 5"
                 />
               </svg>

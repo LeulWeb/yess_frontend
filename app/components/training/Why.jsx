@@ -8,7 +8,7 @@ const Why = ()=>{
         <div className="blue">
             <div className=' flex justify-center items-center flex-col lg:flex-row py-10 gap-10 px-10 min-h-[80vh]'>
                 <div  className="lg:w-3/5 px-4">
-                    <h1 className='text-white font-bold text-[50px] text-center'>Why Yes Ethiopia Provide <br/>
+                    <h1 className='text-white tes font-bold text-center'>Why Yes Ethiopia Provide <br/>
                     Training for youth?</h1>
                     <p className='text-white text-[28px] text-center font-[700px] py-4'>At Yess Ethiopia, our mission is to empower young individuals through carefully crafted training program, equipping hem with the skills, knowledge, adn confidence needed to navigate today's challenges and make positive impact on their communities and beyond.</p>
                 </div>

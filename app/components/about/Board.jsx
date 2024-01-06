@@ -19,7 +19,7 @@ const Board = () => {
   return (
     <div className="story bg-cover bg-no-repeat">
       <div className="px-2 sm:px-4 md:px-6">
-        <h1 className="text-[#0041ff] text-[60px] font-bold">
+        <h1 className="text-[#0041ff] tes font-bold">
           Board member of Yess Ethiopia
         </h1>
         <p className="text-black text-[28px] py-4">

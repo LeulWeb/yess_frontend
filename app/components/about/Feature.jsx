@@ -11,7 +11,7 @@ const Feature = () => {
           <div className="flex flex-wrap items-center justify-center  mx-2 sm:mx-6 md:mx-12 lg:mx-96 gap-10 lg:gap-20 py-10">
             <Image src={fea} alt="vision" width={400} height={400} />
             <div className="flex flex-col justify-center items-center">
-              <h1 className="text-[#0041ff] text-[50px] font-bold ">Future plann:</h1>
+              <h1 className="text-[#0041ff] tes font-bold ">Future plan:</h1>
               <p className="text-[28px] text-black text-start">
                 1. Expansion
                 <br />
@@ -25,7 +25,7 @@ const Feature = () => {
           <div className="flex lg:flex-row-reverse py-6 flex-wrap items-center justify-center  mx-2 sm:mx-6 md:mx-12 lg:mx-96 gap-10 lg:gap-20">
             <Image src={fea2} alt="vision" width={400} height={400} />
             <div className="flex flex-col justify-center items-center">
-              <h1 className="text-[#0041ff] text-[50px] font-bold ">Community Involvement</h1>
+              <h1 className="text-[#0041ff] font-bold ">Community Involvement</h1>
               <p className="text-[28px] text-black text-start">
                 1. Tailored Programs
                 <br />
@@ -39,7 +39,7 @@ const Feature = () => {
           <div className="flex flex-wrap items-center justify-center  mx-2 sm:mx-6 md:mx-12 lg:mx-96 gap-10 lg:gap-20">
             <Image src={fea3} alt="vision" width={400} height={400} />
             <div className="flex flex-col justify-center items-center">
-              <h1 className="text-[#0041ff] text-[50px] font-bold ">Company Culture</h1>
+              <h1 className="text-[#0041ff] font-bold ">Company Culture</h1>
               <p className="text-[28px] text-black text-start">
                 1. Inclusive
                 <br />

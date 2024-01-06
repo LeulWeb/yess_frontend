@@ -12,7 +12,7 @@ const HomeIntro = () => {
       >
         <div className="hero-overlay bg-opacity-50 bg-black/70"></div>
         <div className="flex flex-col items-center justify-center text-white mb-32">
-          <h1 className="font-bold text-[50px] lg:text-[60px] mt-28 text-center py-5">
+          <h1 className="font-bold cul mt-28 text-center py-5">
             Volunterism
           </h1>
 

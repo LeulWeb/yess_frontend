@@ -3,7 +3,7 @@ import React from 'react';
 const Achievement = () => {
   return (
     <div className="flex justify-center items-center flex-col py-10">
-      <h1 className="font-bold text-black text-[60px]">Achievement</h1>
+      <h1 className="font-bold text-black tes">Achievement</h1>
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="col-span-1 lg:col-span-2 mx-2 sm:mx-6 md:mx-12 lg:mx-24">
           <div>
@@ -110,7 +110,7 @@ const Achievement = () => {
           </div>
         </div>
         <div>
-          <h1 className="font-bold text-[50px] py-10 text-center pt-10">
+          <h1 className="font-bold py-10 text-center pt-10">
             Yess Ethiopia
           </h1>
           <p className="font-poppins text-18 font-normal leading-27 tracking-normal text-center lg:px-10">

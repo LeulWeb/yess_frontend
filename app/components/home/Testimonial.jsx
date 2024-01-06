@@ -9,8 +9,8 @@ import Image from 'next/image';
 const Testimonial = () => {
   return (
     <div>
-      <h1 className="text-center font-bold text-[60px]">Testimony</h1>
-      <p className="px-4 sm:px-[6%] md:px-[8%] pop lg:mx-6 text-[30px] py-4 text-center">
+      <h1 className="text-center font-bold tes">Testimony</h1>
+      <p className="px-4 sm:px-[6%] md:px-[8%] pop lg:mx-6 py-4 text-center pas">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
         blanditiis fugiat autem, nisi tenetur exercitationem.
       </p>

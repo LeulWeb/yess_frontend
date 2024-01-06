@@ -5,7 +5,7 @@ import yes from '../../assets/you.jpg';
 const Documentary = () => {
   return (
     <div className="bg-[#0041ff] h-full text-white justify-center items-center flex flex-col lg:px-10 pb-10">
-      <h1 className="text-[60px] font-bold text-center lg:-ml-10">
+      <h1 className="tes font-bold text-center lg:-ml-10">
         Documentary
       </h1>
       <div className="flex flex-col md:flex-row">

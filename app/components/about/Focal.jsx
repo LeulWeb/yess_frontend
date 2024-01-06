@@ -5,13 +5,13 @@ import Image from 'next/image';
 const Focal = () => {
   return (
     <div className="story text-black">
-      <h1 className="text-[#0041ff] text-[60px] font-bold px-2 sm:px-6 md:px-12 lg:px-32 ">
+      <h1 className="text-[#0041ff] tes font-bold px-2 sm:px-6 md:px-12 lg:px-32 ">
         Focal of Yess Ethiopia
       </h1>
       <div className="flex flex-col lg:flex-row gap-4 px-2 sm:px-6 md:px-12 lg:px-32 pb-20">
         <div className="lg:w-2/5">
           <div>
-            <h1 className="font-bold text-[50px] py-10 text-center pt-10">
+            <h1 className="font-bold tes py-10 text-center pt-10">
               Yess Ethiopia
             </h1>
             <p className="pop px-2 text-[25px] text-lg font-light leading-9 text-center lg:px-10">

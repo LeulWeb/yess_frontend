@@ -7,7 +7,7 @@ const Welcome = () => {
     <div className=" bg-[#0041ff] w-screen h-full overflow-x-hidden">
       <div className="grid grid-cols-1 md:grid-cols-3 px-2 sm:px-6 md:px-12 lg:px-32 lg:mr-32 gap-10 py-20">
         <div className="md:col-span-2 flex flex-col px-2 md:px-4 lg:px-6">
-        <h1 className="text-white text-[50px] text-center py-6 font-bold">Welcome</h1>
+        <h1 className="text-white tes text-center py-6 font-bold">Welcome</h1>
           <p className="text-white py-2 text-[27px] font-bold leading-10 text-center">
           Welcome to Yess Ethiopia, a non-profit charity organization committed to transforming the lives of the youth in Ethiopia. Yess Ethiopia addresses the critical issues of unemployment and lack of opportunities faced by the country's young population. 
           </p>

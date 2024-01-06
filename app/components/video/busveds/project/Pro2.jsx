@@ -9,7 +9,7 @@ import Link from 'next/link';
 const Pro2 = () => {
   return (
     <div>
-      <h1 className="font-bold text-[50px] px-2 sm:px-4 md:px-12 lg:px-28 xl:px-32 py-10">
+      <h1 className="font-bold tes px-2 sm:px-4 md:px-12 lg:px-28 xl:px-32 py-10">
         Project Management
       </h1>
       <p className="text-[30px] font-bold text-start pl-4">Part</p>

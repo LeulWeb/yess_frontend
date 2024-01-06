@@ -12,7 +12,7 @@ const Culture = () => {
       >
         <div className="hero-overlay bg-opacity-50 bg-black/70"></div>
         <div className="flex items-start justify-center text-white mb-32 mt-10">
-          <h1 className="font-bold text-[50px] md:text-[60px] lg:text-[70px] text-center pop -mt-32">
+          <h1 className="font-bold cul text-center pop -mt-32">
             C U L T U R E
           </h1>
         </div>

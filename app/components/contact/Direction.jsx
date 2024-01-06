@@ -6,7 +6,7 @@ const Direction = () => {
     <div className=" h-[550px]">
       <div className="grid grid-cols-1 lg:grid-cols-4 ml-5">
         <div className="px-4 col-span-1 rounded-2xl border-gray-100 border-2 shadow-lg shadow-gray-100">
-          <h1 className="text-[50px] py-3">Yess Ethiopia</h1>
+          <h1 className="tes py-3">Yess Ethiopia</h1>
           <p>non-profit charity organization</p>
           <div className="flex justify-center gap-6 items-center py-4">
             <button className="rounded-full border-2 border-gray-500 px-3">Direction</button>

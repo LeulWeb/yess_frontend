@@ -10,7 +10,7 @@ const Story = () => {
   return (
     <div className="bg-cover bg-no-repeat story">
       <div className=" px-2 sm:px-4 md:px-6">
-        <h1 className="text-[#0041ff] text-[60px] font-bold">Story</h1>
+        <h1 className="text-[#0041ff] tes font-bold">Story</h1>
         <p className="text-black text-[28px] py-4">
           Welcome to Yess Ethiopia, a non-profit charity organization committed
           to transforming the lives of the youth in Ethiopia. Yess Ethiopia
@@ -21,7 +21,7 @@ const Story = () => {
           <div className="flex flex-wrap items-center justify-center  mx-2 sm:mx-6 md:mx-12 lg:mx-96 gap-10 lg:gap-20">
             <Image src={vis} alt="vision" width={400} height={400} />
             <div className="flex flex-col justify-center items-center">
-              <h1 className="text-[#0041ff] text-[50px] font-bold ">Vision</h1>
+              <h1 className="text-[#0041ff] font-bold ">Vision</h1>
               <p className="text-[28px] text-black text-center">
                 Yess Ethiopia envisions a future where every <br />
                 young person in Ethiopia has the opportunity
@@ -33,7 +33,7 @@ const Story = () => {
           <div className="flex lg:flex-row-reverse py-6 flex-wrap items-center justify-center  mx-2 sm:mx-6 md:mx-12 lg:mx-96 gap-10 lg:gap-20">
             <Image src={mis} alt="vision" width={400} height={400} />
             <div className="flex flex-col justify-center items-center">
-              <h1 className="text-[#0041ff] text-[50px] font-bold ">Mission</h1>
+              <h1 className="text-[#0041ff] font-bold ">Mission</h1>
               <p className="text-[28px] text-black text-center">
                 Empower the youth of Ethiopia by addressing the challenges{' '}
                 <br />
@@ -44,7 +44,7 @@ const Story = () => {
           <div className="flex flex-wrap items-center justify-center  mx-2 sm:mx-6 md:mx-12 lg:mx-96 gap-10 lg:gap-20">
             <Image src={val} alt="vision" width={400} height={400} />
             <div className="flex flex-col justify-center items-center">
-              <h1 className="text-[#0041ff] text-[50px] font-bold ">Value</h1>
+              <h1 className="text-[#0041ff] font-bold ">Value</h1>
               <p className="text-[28px] text-black text-start">
                 1. Empowerment
                 <br />
@@ -59,7 +59,7 @@ const Story = () => {
           <div className="flex lg:flex-row-reverse flex-wrap items-center justify-center  mx-2 sm:mx-6 md:mx-12 lg:mx-96 gap-10 lg:gap-20">
             <Image src={pri} alt="vision" width={400} height={400} />
             <div className="flex flex-col justify-center items-center">
-              <h1 className="text-[#0041ff] text-[50px] font-bold ">
+              <h1 className="text-[#0041ff] font-bold ">
                 Principle
               </h1>
               <p className="text-[28px] text-black text-start ">

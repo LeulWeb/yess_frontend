@@ -21,10 +21,10 @@ import Image from 'next/image';
 
 const Partners = () => {
   return (
-    <div>
+    <div className='story'>
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="text-center flex items-center justify-center flex-col">
-          <h1 className="text-[#0041ff] text-[50px]">
+          <h1 className="text-[#0041ff] tes">
             Be our partner and contribute <br />
             Your share to the community.
           </h1>
@@ -36,7 +36,7 @@ const Partners = () => {
           </button>
         </div>
         <div>
-          <h1 className="text-[#0041ff] text-[50px] py-3 text-center">
+          <h1 className="text-[#0041ff] py-3 text-center">
             Our Partners
           </h1>
           <div className="carousel carousel-center max-w-full p-4 space-x-4 bg-white rounded-box">
