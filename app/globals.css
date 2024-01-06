@@ -293,7 +293,7 @@ border-radius: 16px;
 /* Media query for large screens */
 @media screen and (min-width: 992px) {
   .tas {
-    font-size: 40px; /* Reset font size for large screens */
+    font-size: 35px; /* Reset font size for large screens */
    
   }
 }

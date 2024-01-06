@@ -14,10 +14,10 @@ const Development = () => {
       </h1>
       <p className="text-[30px] font-bold text-start pl-4">Part</p>
       <div>
-        <div className="h-[80vh] carousel carousel-vertical rounded-box">
+        <div className="h-full flex flex-col gap-5 rounded-box">
 
           {/* Item 1 */}
-          <div className="mx-10 py-5 carousel-item h-[500px] lg:h-[230px] overflow-hidden">
+          <div className="mx-10 py-5  h-[500px] lg:h-[230px] overflow-hidden">
             <div className="flex flex-col md:flex-row gap-10  border-2 border-gray-300  rounded-xl">
               <Image
                 src={footer}
@@ -51,7 +51,7 @@ const Development = () => {
 
 
           {/* Item 2 */}
-          <div className="mx-10 py-5 carousel-item h-[500px] lg:h-[230px] overflow-hidden">
+          <div className="mx-10 py-5  h-[500px] lg:h-[230px] overflow-hidden">
             <div className="flex flex-col md:flex-row gap-10  border-2 border-gray-300  rounded-xl">
               <Image
                 src={footer}
@@ -84,7 +84,7 @@ const Development = () => {
           </div>
 
 {/* Item 3 */}
-<div className="mx-10 py-5 carousel-item h-[500px] lg:h-[230px] overflow-hidden">
+<div className="mx-10 py-5  h-[500px] lg:h-[230px] overflow-hidden">
             <div className="flex flex-col md:flex-row gap-10  border-2 border-gray-300  rounded-xl">
               <Image
                 src={footer}

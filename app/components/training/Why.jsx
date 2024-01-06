@@ -6,7 +6,7 @@ import Image from 'next/image';
 const Why = ()=>{
     return(
         <div className="blue">
-            <div className=' flex justify-center items-center flex-col lg:flex-row py-10 gap-10 px-10 min-h-[80vh]'>
+            <div className=' flex justify-center items-center flex-col lg:flex-row py-10 gap-10 lg:px-10 min-h-[80vh]'>
                 <div  className="lg:w-3/5 px-4">
                     <h1 className='text-white tes font-bold text-center'>Why Yes Ethiopia Provide <br/>
                     Training for youth?</h1>
