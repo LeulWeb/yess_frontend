@@ -24,7 +24,7 @@ const Partners = () => {
     <div className='story'>
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="text-center flex items-center justify-center flex-col">
-          <h1 className="text-[#0041ff] tes">
+          <h1 className="text-[#0041ff] tas">
             Be our partner and contribute <br />
             Your share to the community.
           </h1>
