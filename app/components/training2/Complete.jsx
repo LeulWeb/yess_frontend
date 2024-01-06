@@ -81,7 +81,7 @@ const Complete = () => {
               <div className="text-white sm:pl-8 text-center flex flex-col items-center lg:ml-20 ">
                 <p className="text-[50px] font-semibold pb-6 text-center">1</p>
                 <p className="text-[50px] font-semibold text-center">
-                  Ongoing
+                  Coming Soon.
                 </p>
               </div>
             </div>
