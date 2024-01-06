@@ -148,7 +148,7 @@ function Navbar() {
             </Link>
           </li>
           
-          <li className='nav-item'>
+          {/* <li className='nav-item'>
             <Link
               href='/blog'
               className={`${
@@ -160,7 +160,7 @@ function Navbar() {
             >
               Blog
             </Link>
-          </li>
+          </li> */}
           <li className='nav-item'>
             <Link
               href='/contact'

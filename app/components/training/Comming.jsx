@@ -13,7 +13,7 @@ const Comming = () => {
   return (
     <div className="story">
       <div>
-        <h1 className="text-[#0041ff] text-[40px] font-bold">
+        <h1 className="text-[#0041ff] text-[40px] font-bold px-4 lg:px-10">
           Coming Soon Training
         </h1>
         <div className="pb-10">

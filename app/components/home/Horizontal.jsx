@@ -3,6 +3,9 @@
 // Horizontal.js
 import React, { useState } from 'react';
 import './horizontal.css'; // Import the CSS file
+import reco1 from '../../assets/reco1.png';
+import reco2 from '../../assets/reco2.png';
+import Image from 'next/image';
 
 const Horizontal = () => {
   const [selectedInput, setSelectedInput] = useState(3); // Default to the first input
@@ -12,15 +15,7 @@ const Horizontal = () => {
   };
 
   const getCarouselItem = (index) => {
-    const images = [
-      'https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg',
-      'https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg',
-      'https://daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg',
-      'https://daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg',
-      'https://daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg',
-      'https://daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg',
-      'https://daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg',
-    ];
+    const images = [reco1, reco2];
 
     const totalImages = images.length;
     const normalizedIndex = (index + totalImages) % totalImages;
@@ -28,10 +23,12 @@ const Horizontal = () => {
     const isSelected = selectedInput === normalizedIndex;
 
     return (
-      <img
+      <Image
         key={normalizedIndex}
         src={images[normalizedIndex]}
         alt={`Option ${normalizedIndex + 1}`}
+        width={400}
+        height={450}
         className={`carousel-image ${isSelected ? 'selected' : ''}`}
         onClick={() => handleImageClick(normalizedIndex)}
       />
@@ -40,8 +37,13 @@ const Horizontal = () => {
 
   return (
     <div>
-      <h1 className="font-serif tes font-bold leading-13 text-center">Recommendation</h1>
-      <p className="pop text-[28px] font-normal leading-9 text-center">Discover recommendations from professionals across sectors endorsing YESS Ethiopia. Join us in our mission for positive change.</p>
+      <h1 className="font-serif tes font-bold leading-13 text-center">
+        Recommendation
+      </h1>
+      <p className="pop text-[28px] font-normal leading-9 text-center">
+        Discover recommendations from professionals across sectors endorsing
+        YESS Ethiopia. Join us in our mission for positive change.
+      </p>
       <div className="carousel-container carousel carousel-center h-[500px] py-5 bod lg:-ml-32">
         <div className="image-options carousel-item w-screen h-[500px]">
           {getCarouselItem(selectedInput - 2)}
