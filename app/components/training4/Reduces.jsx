@@ -54,7 +54,7 @@ const Reduces = () => {
               height="463"
               src="https://www.youtube.com/embed/KPUUCS4z7TE"
               title="The best scholarship, job and business experience sharing forum Session 46"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
               className="rounded w-full h-[400px]"

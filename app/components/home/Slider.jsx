@@ -46,21 +46,21 @@ const MySlider = () => {
     <div className="ml-4 sm:ml-8 md:ml-12 lg:ml-20 mr-4 lg:mr-10">
       <Slider {...settings} className=" h-full">
         <div className="slider-item " onClick={handleSlideClick}>
-          <div class="max-w-sm bg-[#0041ff] border border-gray-200 rounded-lg  dark:border-gray-700 mx-3">
+          <div className="max-w-sm bg-[#0041ff] border border-gray-200 rounded-lg  dark:border-gray-700 mx-3">
             <Image
               width={300}
               height={300}
-              class="rounded-t-lg w-full"
+              className="rounded-t-lg w-full"
               src={child}
               alt=""
             />
 
-            <div class="p-5">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+            <div className="p-5">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
                 Noteworthy technology acquisitions 2021
               </h5>
 
-              <p class="mb-3 font-normal text-white">
+              <p className="mb-3 font-normal text-white">
                 Here are the biggest enterprise technology acquisitions of 2021
                 so far, in reverse chronological order.
               </p>
@@ -68,21 +68,21 @@ const MySlider = () => {
           </div>
         </div>
         <div className="slider-item" onClick={handleSlideClick}>
-          <div class="max-w-sm bg-[#0041ff] border border-gray-200 rounded-lg  dark:border-gray-700 mx-3">
+          <div className="max-w-sm bg-[#0041ff] border border-gray-200 rounded-lg  dark:border-gray-700 mx-3">
             <Image
               width={300}
               height={300}
-              class="rounded-t-lg w-full"
+              className="rounded-t-lg w-full"
               src={child}
               alt=""
             />
 
-            <div class="p-5">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+            <div className="p-5">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
                 Noteworthy technology acquisitions 2021
               </h5>
 
-              <p class="mb-3 font-normal text-white">
+              <p className="mb-3 font-normal text-white">
                 Here are the biggest enterprise technology acquisitions of 2021
                 so far, in reverse chronological order.
               </p>
@@ -90,21 +90,21 @@ const MySlider = () => {
           </div>
         </div>
         <div className="slider-item" onClick={handleSlideClick}>
-          <div class="max-w-sm bg-[#0041ff] border border-gray-200 rounded-lg  dark:border-gray-700 mx-3">
+          <div className="max-w-sm bg-[#0041ff] border border-gray-200 rounded-lg  dark:border-gray-700 mx-3">
             <Image
               width={300}
               height={300}
-              class="rounded-t-lg w-full"
+              className="rounded-t-lg w-full"
               src={child}
               alt=""
             />
 
-            <div class="p-5">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+            <div className="p-5">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
                 Noteworthy technology acquisitions 2021
               </h5>
 
-              <p class="mb-3 font-normal text-white">
+              <p className="mb-3 font-normal text-white">
                 Here are the biggest enterprise technology acquisitions of 2021
                 so far, in reverse chronological order.
               </p>
@@ -112,21 +112,21 @@ const MySlider = () => {
           </div>
         </div>
         <div className="slider-item" onClick={handleSlideClick}>
-          <div class="max-w-sm bg-[#0041ff] border border-gray-200 rounded-lg  dark:border-gray-700 mx-3">
+          <div className="max-w-sm bg-[#0041ff] border border-gray-200 rounded-lg  dark:border-gray-700 mx-3">
             <Image
               width={300}
               height={300}
-              class="rounded-t-lg w-full"
+              className="rounded-t-lg w-full"
               src={child}
               alt=""
             />
 
-            <div class="p-5">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+            <div className="p-5">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
                 Noteworthy technology acquisitions 2021
               </h5>
 
-              <p class="mb-3 font-normal text-white">
+              <p className="mb-3 font-normal text-white">
                 Here are the biggest enterprise technology acquisitions of 2021
                 so far, in reverse chronological order.
               </p>

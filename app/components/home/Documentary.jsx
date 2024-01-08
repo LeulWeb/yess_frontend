@@ -30,7 +30,7 @@ const Documentary = () => {
             height="480"
             src="https://www.youtube.com/embed/V-Pg-DEFM9o"
             title="Sample YessEthiopia activities"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
             className="mt-6 lg:h-[473px] rounded-2xl md:ml-6 w-full"
