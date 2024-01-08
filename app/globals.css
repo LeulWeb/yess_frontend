@@ -338,3 +338,37 @@ border-radius: 16px;
     /* Add any other adjustments as needed */
   }
 }
+
+.bu {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 600px) {
+  .bu {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+/* Media query for medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .bu {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+/* Media query for large screens */
+@media only screen and (min-width: 1025px) {
+  /* You can adjust these values based on your design requirements */
+  .bu {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

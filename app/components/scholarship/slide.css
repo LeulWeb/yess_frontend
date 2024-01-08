@@ -6,7 +6,8 @@
   }
   
   .body {
-    background: #fff;
+    /* background-image: url('../app/assets/story.jpg'); */
+    background-image: url('../../assets/story.jpg');
   }
   
   .title {
