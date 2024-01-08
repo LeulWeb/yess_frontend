@@ -2,12 +2,14 @@ import React from 'react';
 import you from '../../assets/you.jpg';
 import Image from 'next/image';
 
-const Welcome = () => {
-  return (
-    <div className="blue">
-            <div className=' flex justify-center items-center flex-col lg:flex-row py-10 gap-10 px-10 min-h-[80vh]'>
+
+
+const Welcome = ()=>{
+    return(
+        <div className="blue">
+            <div className=' flex justify-center items-center flex-col lg:flex-row py-10 gap-10 lg:px-10 min-h-[80vh]'>
                 <div  className="lg:w-3/5 px-4">
-                    <h1 className='text-white font-bold tes text-center'>Welcome to Our Scholarship</h1>
+                    <h1 className='text-white tes font-bold text-center'>Welcome to Our Scholarship</h1>
                     <p className='text-white text-[28px] text-center font-[700px] py-4'>At Yess Ethiopia, we a re dedicated to providing valuable information
             about new scholarship opportunities and offering guidance to
             students seeking financial support for their education. Our
@@ -19,7 +21,7 @@ const Welcome = () => {
                 </div>
             </div>
         </div>
-  );
-};
+    )
+}
 
 export default Welcome;

@@ -7,7 +7,6 @@ import chev from '../../assets/chev.png';
 import ccees from '../../assets/ccees.png';
 
 const Webinar = () => {
-  const content = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
   return (
     <div className="story bg-cover bg-no-repeat text-black">
       <h1 className="text-[#0041ff] text-[40px] w-full font-bold flex flex-row justify-start items-center px-4 lg:mx-8">
@@ -16,9 +15,8 @@ const Webinar = () => {
 
       <div>
         <div className="h-full flex flex-col justify-center items-center rounded-box">
-
           {/* item 1 */}
-          <div className="mx-10 py-5  h-[500px] md:h-[350px] lg:h-[376px] overflow-hidden bods bodey">
+          <div className="mx-10 py-5  h-full md:h-[350px] lg:h-[376px] overflow-hidden bods bodey">
             <div className="flex flex-col md:flex-row gap-10  border-2 border-gray-300 shadow-xl shadow-transparent rounded-xl">
               <Image
                 src={chev}
@@ -29,7 +27,7 @@ const Webinar = () => {
               />
               <div className="flex flex-col gap-6 lg:mr-20 py-6">
                 <div>
-                  <p className="font-bold text-[35px] text-[#0041ff] text-start py-2 che">
+                  <p className="font-bold  text-center lg:text-[35px] text-[#0041ff] lg:text-start py-2">
                     The Chevening Scholarship
                   </p>
                   <p className="text-gray-700 font-medium pop papa line-clamp-2 lg:line-clamp-3 text-start">
@@ -51,9 +49,8 @@ const Webinar = () => {
             </div>
           </div>
 
-
           {/* item 2 */}
-          <div className="mx-10 py-5  h-[500px] md:h-[350px] lg:h-[376px] overflow-hidden bods bodey">
+          <div className="mx-10 py-5  h-full md:h-[350px] lg:h-[376px] overflow-hidden bods bodey">
             <div className="flex flex-col md:flex-row gap-10  border-2 border-gray-300 shadow-xl shadow-transparent rounded-xl">
               <Image
                 src={ccees}
@@ -65,10 +62,14 @@ const Webinar = () => {
               <div className="flex flex-col gap-6 lg:mr-20 py-6">
                 <div>
                   <p className="font-bold  text-center lg:text-[35px] text-[#0041ff] lg:text-start py-2">
-                  International Council for Central and East European Studies
+                    International Council for Central and East European Studies
                   </p>
                   <p className="text-gray-700 font-medium pop papa line-clamp-2 lg:line-clamp-3 text-start">
-                  The International Council for Central and East European Studies (ICCEES) is an organization dedicated to promoting research and collaboration in the field of Central and East European Studies, fostering academic exchange and understanding.
+                    The International Council for Central and East European
+                    Studies (ICCEES) is an organization dedicated to promoting
+                    research and collaboration in the field of Central and East
+                    European Studies, fostering academic exchange and
+                    understanding.
                   </p>
                 </div>
                 <div className="flex flex-end justify-end items-center gap-10">
