@@ -57,7 +57,7 @@
     right: 0;
     margin: auto;
     cursor: pointer;
-    transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);  
   }
   
   .img {
@@ -65,7 +65,7 @@
     height: 100%;
     border-radius: 10px;
     -o-object-fit: cover;
-    object-fit: cover;
+    object-fit: cover;  
   }
   
   #item-2:checked ~ .cards #selector-1,

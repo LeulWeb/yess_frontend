@@ -15,24 +15,24 @@ const Webinar = () => {
       </h1>
 
       <div>
-        <div className="h-[80vh] carousel carousel-vertical rounded-box">
+        <div className="h-full flex flex-col justify-center items-center rounded-box">
 
           {/* item 1 */}
-          <div className="mx-10 py-5 carousel-item h-[500px] md:h-[350px] lg:h-[250px] overflow-hidden bods bodey">
+          <div className="mx-10 py-5  h-[500px] md:h-[350px] lg:h-[376px] overflow-hidden bods bodey">
             <div className="flex flex-col md:flex-row gap-10  border-2 border-gray-300 shadow-xl shadow-transparent rounded-xl">
               <Image
                 src={chev}
                 alt="introduction"
                 width={200}
                 height={200}
-                className="lg:h-[305px] h-full w-[300px] md:w-[500px] lg:w-[200px] x rounded-l-xl im"
+                className="imo rounded-l-xl im"
               />
               <div className="flex flex-col gap-6 lg:mr-20 py-6">
                 <div>
                   <p className="font-bold text-[35px] text-[#0041ff] text-start py-2 che">
                     The Chevening Scholarship
                   </p>
-                  <p className="text-gray-700 font-medium pop text-[16px] line-clamp-2 lg:line-clamp-3 text-start">
+                  <p className="text-gray-700 font-medium pop papa line-clamp-2 lg:line-clamp-3 text-start">
                     The Chevening Scholarship is a prestigious international
                     award that provides fully-funded opportunities outstanding
                     individuals to purse postgraduate studies in the United
@@ -53,21 +53,21 @@ const Webinar = () => {
 
 
           {/* item 2 */}
-          <div className="mx-10 py-5 carousel-item h-[500px] md:h-[350px] lg:h-[250px] overflow-hidden bods bodey">
+          <div className="mx-10 py-5  h-[500px] md:h-[350px] lg:h-[376px] overflow-hidden bods bodey">
             <div className="flex flex-col md:flex-row gap-10  border-2 border-gray-300 shadow-xl shadow-transparent rounded-xl">
               <Image
                 src={ccees}
                 alt="introduction"
                 width={200}
                 height={200}
-                className="lg:h-[305px] h-full w-[300px] md:w-[500px] lg:w-[200px] x rounded-l-xl im"
+                className="imo rounded-l-xl im"
               />
               <div className="flex flex-col gap-6 lg:mr-20 py-6">
                 <div>
-                  <p className="font-bold text-[30px] text-center lg:text-[35px] text-[#0041ff] lg:text-start py-2">
+                  <p className="font-bold  text-center lg:text-[35px] text-[#0041ff] lg:text-start py-2">
                   International Council for Central and East European Studies
                   </p>
-                  <p className="text-gray-700 font-medium pop text-[16px] line-clamp-2 lg:line-clamp-3 text-start">
+                  <p className="text-gray-700 font-medium pop papa line-clamp-2 lg:line-clamp-3 text-start">
                   The International Council for Central and East European Studies (ICCEES) is an organization dedicated to promoting research and collaboration in the field of Central and East European Studies, fostering academic exchange and understanding.
                   </p>
                 </div>
