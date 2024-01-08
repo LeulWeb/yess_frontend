@@ -2,8 +2,8 @@ import React from 'react';
 import './slide.css'; // Adjust the path based on your project structure
 import footer from '../../assets/footer.jpg';
 import guid1 from '../../assets/guid1.png';
-import guid2 from '../../assets/guid1.png';
-import guid3 from '../../assets/guid1.png';
+import guid2 from '../../assets/guid2.png';
+import guid3 from '../../assets/guid3.png';
 
 import Image from 'next/image';
 
@@ -30,8 +30,8 @@ const Slide = () => {
                 src={guid1}
                 alt="sliders"
                 width={400}
-                height={400}
-                className="img"
+                height={500}
+                className="img h-[500px]"
               />
               <p className="text-white justify-end items-end text-end pr-10 -mt-20">Read more</p>
             </label>
@@ -40,8 +40,8 @@ const Slide = () => {
                 src={guid2}
                 alt="sliders"
                 width={400}
-                height={400}
-                className="img"
+                height={500}
+                className="img h-[500px]"
               />
             </label>
             <label className="card" htmlFor="item-3" id="selector-3">
@@ -50,7 +50,7 @@ const Slide = () => {
                 alt="sliders"
                 width={400}
                 height={400}
-                className="img"
+                className="img h-[500px]"
               />
             </label>
           </div>

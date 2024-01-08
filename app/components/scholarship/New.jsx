@@ -10,7 +10,6 @@ import tokyo from '../../assets/tokyo.png';
 import icp from '../../assets/icp.png';
 
 const New = () => {
-  const news = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
   return (
     <div className="pop">
       <div>
@@ -40,8 +39,8 @@ const New = () => {
                   </div>
                 </div>
                 <div className="text-gray-800  text-[12px] flex gap-2 justify-end flex-end items-center">
-                  <CgEye size={20} />
-                  <p className="text-sm">2k view </p>
+                  {/* <CgEye size={20} />
+                  <p className="text-sm">2k view </p> */}
                 </div>
               </div>
               <p className="text-black text-[12px] text-start pop font-light mmk">
@@ -108,8 +107,8 @@ const New = () => {
                   </div>
                 </div>
                 <div className="text-gray-800  text-[12px] flex gap-2 justify-end flex-end items-center">
-                  <CgEye size={20} />
-                  <p className="text-sm">2k view </p>
+                  {/* <CgEye size={20} />
+                  <p className="text-sm">2k view </p> */}
                 </div>
               </div>
               <p className="text-black text-[12px] text-start pop font-light mmk">
@@ -142,7 +141,7 @@ const New = () => {
                   University/Institution
                 </p>
                 <p className="text-black text-[12px] pop">
-                  Universtift of tokyo
+                  University of Tokyo
                 </p>
               </div>
               <div className="flex justify-start items-center gap-3 pop py-1">
@@ -176,8 +175,8 @@ const New = () => {
                   </div>
                 </div>
                 <div className="text-gray-800  text-[12px] flex gap-2 justify-end flex-end items-center">
-                  <CgEye size={20} />
-                  <p className="text-sm">2k view </p>
+                  {/* <CgEye size={20} />
+                  <p className="text-sm">2k view </p> */}
                 </div>
               </div>
               <p className="text-black text-[12px] text-start pop font-light mmk">
