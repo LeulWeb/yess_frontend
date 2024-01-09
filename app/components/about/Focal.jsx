@@ -1,5 +1,5 @@
 import React from 'react';
-import face from '../../assets/face.png';
+import face from '../../assets/focal.png';
 import Image from 'next/image';
 
 const Focal = () => {
@@ -15,189 +15,28 @@ const Focal = () => {
               Yess Ethiopia
             </h1>
             <p className="pop px-2 text-[25px] text-lg font-light leading-9 text-center lg:px-10">
-            Yess Ethiopia operates with dedicated focal points strategically placed in different cities and universities, both within Ethiopia and internationally. These focal points serve as vital connections between Yess Ethiopia and the communities it aims to support.
+              Yess Ethiopia operates with dedicated focal points strategically
+              placed in different cities and universities, both within Ethiopia
+              and internationally. These focal points serve as vital connections
+              between Yess Ethiopia and the communities it aims to support.
             </p>
           </div>
         </div>
-        <div className="col-span-1 mx-2 sm:mx-6 md:mx-12 lg:mx-24 lg:col-span-2 lg:w-3/5">
-          <div className="h-screen carousel carousel-vertical rounded-box hidden sm:block">
+        <div className=" mx-2 sm:mx-6 md:mx-12 lg:mx-24 lg:col-span-2 lg:w-3/5">
+          <div className="h-screen carousel carousel-vertical hidden sm:block">
             <div className="carousel-item ">
               <div className="flex gap-5 md:gap-10 lg:gap-16 py-8 justify-start items-center ">
-                <div className="bg-[#0041ff] text-white  rounded-xl ">
-                  <div className="flex justify-start items-start gap-5 w-[300px]">
+                <div className="text-white">
+                  <div className="flex justify-start items-start gap-5 h-full w-full">
                     <Image
                       src={face}
                       alt=""
-                      width={50}
-                      height={50}
-                      className="-mt-4 rounded-full ml-1"
+                      width={1000}
+                      height={1000}
+                      className="-mt-4 ml-1 h-full w-"
                     />
                     <p>Abebe Balcha</p>
                   </div>
-                  <p className="font-light ml-3 mt-2">Education</p>
-                  <p className="font-light ml-3">Focal Location</p>
-                  <p className="font-light ml-3">Phone Number</p>
-                </div>
-                <div className="h-60 -mt-3 relative bg-gray-700 text-gray-700 border-gray-700 border-2 z-20">
-                  <div className="rounded-full h-10 w-10 bg-[#0041ff] absolute z-50 -ml-5 mt-24 border-2 border-gray-700"></div>
-                </div>
-                <div className=" border-gray-100 border-2 rounded-xl">
-                  <p className="text-center py-3">
-                    Lorem ipsum dolor sit amet what adipisicing elit.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item ">
-              <div className="flex flex-row-reverse gap-5 md:gap-10 lg:gap-16 py-8 justify-start items-center ">
-                <div className="bg-[#0041ff] text-white  rounded-xl ">
-                  <div className="flex justify-start items-start gap-5 w-[300px]">
-                    <Image
-                      src={face}
-                      alt=""
-                      width={50}
-                      height={50}
-                      className="-mt-4 rounded-full ml-1"
-                    />
-                    <p>Abebe Balcha</p>
-                  </div>
-                  <p className="font-light ml-3 mt-2">Education</p>
-                  <p className="font-light ml-3">Focal Location</p>
-                  <p className="font-light ml-3">Phone Number</p>
-                </div>
-                <div className=" border-gray-100 border-2 rounded-xl">
-                  <p className="text-center py-3">
-                    Lorem ipsum dolor sit amet what adipisicing elit.
-                  </p>
-                </div>
-              </div>{' '}
-            </div>
-            <div className="carousel-item">
-              <div className="flex gap-5 md:gap-10 lg:gap-16 py-8 justify-start items-center ">
-                <div className="bg-[#0041ff] text-white  rounded-xl ">
-                  <div className="flex justify-start items-start gap-5 w-[300px]">
-                    <Image
-                      src={face}
-                      alt=""
-                      width={50}
-                      height={50}
-                      className="-mt-4 rounded-full ml-1"
-                    />
-                    <p>Abebe Balcha</p>
-                  </div>
-                  <p className="font-light ml-3 mt-2">Education</p>
-                  <p className="font-light ml-3">Focal Location</p>
-                  <p className="font-light ml-3">Phone Number</p>
-                </div>
-                <div className="h-60 -mt-3 relative bg-gray-700 text-gray-700 border-gray-700 border-2 z-20">
-                  <div className="rounded-full h-10 w-10 bg-gray-100 absolute z-50 -ml-5 mt-24 border-2 border-gray-700"></div>
-                </div>
-                <div className=" border-gray-100 border-2 rounded-xl">
-                  <p className="text-center py-3">
-                    Lorem ipsum dolor sit amet what adipisicing elit.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item ">
-              <div className="flex flex-row-reverse gap-5 md:gap-10 lg:gap-16 py-8 justify-start items-center ">
-                <div className="bg-[#0041ff] text-white  rounded-xl ">
-                  <div className="flex justify-start items-start gap-5 w-[300px]">
-                    <Image
-                      src={face}
-                      alt=""
-                      width={50}
-                      height={50}
-                      className="-mt-4 rounded-full ml-1"
-                    />
-                    <p>Abebe Balcha</p>
-                  </div>
-                  <p className="font-light ml-3 mt-2">Education</p>
-                  <p className="font-light ml-3">Focal Location</p>
-                  <p className="font-light ml-3">Phone Number</p>
-                </div>
-                <div className=" border-gray-100 border-2 rounded-xl">
-                  <p className="text-center py-3">
-                    Lorem ipsum dolor sit amet what adipisicing elit.
-                  </p>
-                </div>
-              </div>{' '}
-            </div>
-            <div className="carousel-item">
-              <div className="flex gap-5 md:gap-10 lg:gap-16 py-8 justify-start items-center ">
-                <div className="bg-[#0041ff] text-white  rounded-xl ">
-                  <div className="flex justify-start items-start gap-5 w-[300px]">
-                    <Image
-                      src={face}
-                      alt=""
-                      width={50}
-                      height={50}
-                      className="-mt-4 rounded-full ml-1"
-                    />
-                    <p>Abebe Balcha</p>
-                  </div>
-                  <p className="font-light ml-3 mt-2">Education</p>
-                  <p className="font-light ml-3">Focal Location</p>
-                  <p className="font-light ml-3">Phone Number</p>
-                </div>
-                <div className="h-60 -mt-3 relative bg-gray-700 text-gray-700 border-gray-700 border-2 z-20">
-                  <div className="rounded-full h-10 w-10 bg-[#fff] absolute z-50 -ml-5 mt-24 border-2 border-gray-700"></div>
-                </div>
-                <div className=" border-gray-100 border-2 rounded-xl">
-                  <p className="text-center py-3">
-                    Lorem ipsum dolor sit amet what adipisicing elit.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item ">
-              <div className="flex flex-row-reverse gap-5 md:gap-10 lg:gap-16 py-8 justify-start items-center ">
-                <div className="bg-[#0041ff] text-white  rounded-xl ">
-                  <div className="flex justify-start items-start gap-5 w-[300px]">
-                    <Image
-                      src={face}
-                      alt=""
-                      width={50}
-                      height={50}
-                      className="-mt-4 rounded-full ml-1"
-                    />
-                    <p>Abebe Balcha</p>
-                  </div>
-                  <p className="font-light ml-3 mt-2">Education</p>
-                  <p className="font-light ml-3">Focal Location</p>
-                  <p className="font-light ml-3">Phone Number</p>
-                </div>
-                <div className=" border-gray-100 border-2 rounded-xl">
-                  <p className="text-center py-3">
-                    Lorem ipsum dolor sit amet what adipisicing elit.
-                  </p>
-                </div>
-              </div>{' '}
-            </div>
-            <div className="carousel-item">
-              <div className="flex gap-5 md:gap-10 lg:gap-16 py-8 justify-start items-center ">
-                <div className="bg-[#0041ff] text-white  rounded-xl ">
-                  <div className="flex justify-start items-start gap-5 w-[300px]">
-                    <Image
-                      src={face}
-                      alt=""
-                      width={50}
-                      height={50}
-                      className="-mt-4 rounded-full ml-1"
-                    />
-                    <p>Abebe Balcha</p>
-                  </div>
-                  <p className="font-light ml-3 mt-2">Education</p>
-                  <p className="font-light ml-3">Focal Location</p>
-                  <p className="font-light ml-3">Phone Number</p>
-                </div>
-                <div className="h-60 -mt-3 relative bg-gray-700 text-gray-700 border-gray-700 border-2 z-20">
-                  <div className="rounded-full h-10 w-10 bg-[#0041ff] absolute z-50 -ml-5 mt-24 border-2 border-gray-700"></div>
-                </div>
-                <div className=" border-gray-100 border-2 rounded-xl">
-                  <p className="text-center py-3">
-                    Lorem ipsum dolor sit amet what adipisicing elit.
-                  </p>
                 </div>
               </div>
             </div>
