@@ -43,9 +43,9 @@ const Seeking = () => {
       image: fewis,
       title: 'Internship',
       description:
-        'Fewis Digital Medical solution want to an internship for a medical profession at its companies if you are interested apply below',
+        'Fewis Digital Medical Solutions offers an internship for those interested in a medical profession. Apply below for a chance to gain valuable experience in our dynamic and innovative medical environment.',
       time: 'Full Time',
-      deadline: 'Oct 05, 2023',
+      deadline: 'Dec 30, 2023',
       url: '/fewis',
     },
     {
@@ -54,7 +54,7 @@ const Seeking = () => {
       description:
         'Helder Technologies Solution PLC want to hire a Mobile app developer. if you are interested to work on a startup company Welcome to Helder Technologies Solution',
       time: 'Full Time',
-      deadline: 'Oct 05, 2023',
+      deadline: 'Aug 01, 2023',
       url: '/helder',
     },
   ];

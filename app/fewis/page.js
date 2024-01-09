@@ -9,8 +9,8 @@ const Fewis = () => {
         <div className='flex flex-start items-center justify-start gap-2'>
             <Image src={gopa} alt="FMF" width={196} height={201} />
             <div className="ml-4">
-                <p className='text-2xl font-semibold leading-13 text-left'>Life Map Higher Learning Institute</p>
-                <p className='text-2xl font-normal leading-13 text-left text-[#260000]'>online education institutions</p>
+                <p className='text-2xl font-semibold leading-13 text-left'>Fewis Digital Medical Solutions</p>
+                <p className='text-2xl font-normal leading-13 text-left text-[#260000]'>Medical Solutions</p>
             </div>
         </div>
         <div>
