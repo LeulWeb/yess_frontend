@@ -49,9 +49,8 @@ const View = () => {
               Scholarship
             </p>
             <p className="text-white px-4 text-center">
-              Join our scholarship programs to gain the info needed to explore
-              in the world of education
-            </p>
+            Join our scholarship programs to explore the vast world of education.
+                        </p>
 
             <Link href="/scholar">
               <p className="text-[#0041ff] bg-white rounded-xl hover:bg-blue-200 cursor-pointer my-2 py-1 px-8 justify-center items-center flex text-center text-[23px]">
@@ -126,8 +125,7 @@ const View = () => {
               Business
             </p>
             <p className="text-white px-4 text-center">
-              Join our programs to gain the skils needed to thrive in the
-              dynamic world of business
+            Join programs to gain the skills needed to thrive in the vibrant world of business.
             </p>
 
             <Link href="/business">

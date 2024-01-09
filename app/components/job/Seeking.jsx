@@ -8,48 +8,54 @@ import fmf from '../../assets/fmf.png';
 import Image from 'next/image';
 import { GoQuestion } from 'react-icons/go';
 import { FaArrowRight } from 'react-icons/fa6';
+import Link from 'next/link';
 
 const Seeking = () => {
   const content = [
     {
-      "image":gopa,
-      "title":" Public Administration, Land Administration, Political Science",
-      "description":"GOPA Worldwide Consultants is a German company that advises on and implements economic, social, and environmental development projects. International and national donors fund these projects. GOPA's Rural Development and Environment department implements dozens of rural, local, and environmental development and natural resource management projects on several continents.",
-      "time":"Full Time, contract",
-      "deadline":"02.01.2024 – 28.02.2026",
-      "url":"/gopa",
+      image: gopa,
+      title: ' Public Administration, Land Administration, Political Science',
+      description:
+        "GOPA Worldwide Consultants is a German company that advises on and implements economic, social, and environmental development projects. International and national donors fund these projects. GOPA's Rural Development and Environment department implements dozens of rural, local, and environmental development and natural resource management projects on several continents.",
+      time: 'Full Time, contract',
+      deadline: '02.01.2024 – 28.02.2026',
+      url: '/gopa',
     },
     {
-      "image":fmf,
-      "title":"FMF food processing plc",
-      "description":"we would like to offer a job opportunities for our families for the bazaars and expo held at millenium hall for 13 days started from tomorrow.",
-      "time":"Full Time",
-      "deadline":"Nov 13, 2023",
-      "url":"/fmf"
+      image: fmf,
+      title: 'FMF food processing plc',
+      description:
+        'we would like to offer a job opportunities for our families for the bazaars and expo held at millenium hall for 13 days started from tomorrow.',
+      time: 'Full Time',
+      deadline: 'Nov 13, 2023',
+      url: '/fmf',
     },
     {
-      "image":footer,
-      "title":"Secretary",
-      "description":"We are looking for a highly organized and efficient secretary to join our team. In this role, you will be responsible for providing administrative support to the E-Learning staff. You will be a key point of contact for students, and staff, and you will play a vital role in ensuring the smooth operation of the department.",
-      "time":"Full Time",
-      "deadline":null,
-      "url":"/secretary"
+      image: footer,
+      title: 'Secretary',
+      description:
+        'We are looking for a highly organized and efficient secretary to join our team. In this role, you will be responsible for providing administrative support to the E-Learning staff. You will be a key point of contact for students, and staff, and you will play a vital role in ensuring the smooth operation of the department.',
+      time: 'Full Time',
+      deadline: null,
+      url: '/secretary',
     },
     {
-      "image":fewis,
-      "title":"Internship",
-      "description":"Helder Technologies Solution PLC want to hire a Mobile app developer. if you are interested to work on a startup company Welcome to Helder Technologies Solution",
-      "time":"Full Time",
-      "deadline":"Oct 05, 2023",
-      "url":"/fewis"
+      image: fewis,
+      title: 'Internship',
+      description:
+        'Helder Technologies Solution PLC want to hire a Mobile app developer. if you are interested to work on a startup company Welcome to Helder Technologies Solution',
+      time: 'Full Time',
+      deadline: 'Oct 05, 2023',
+      url: '/fewis',
     },
     {
-      "image":helder,
-      "title":"Mobile app developer",
-      "description":"Helder Technologies Solution PLC want to hire a Mobile app developer. if you are interested to work on a startup company Welcome to Helder Technologies Solution",
-      "time":"Full Time",
-      "deadline":"Oct 05, 2023",
-      "url":"/helder"
+      image: helder,
+      title: 'Mobile app developer',
+      description:
+        'Helder Technologies Solution PLC want to hire a Mobile app developer. if you are interested to work on a startup company Welcome to Helder Technologies Solution',
+      time: 'Full Time',
+      deadline: 'Oct 05, 2023',
+      url: '/helder',
     },
   ];
   return (
@@ -96,24 +102,23 @@ const Seeking = () => {
           </div>
         </form>
         <div className="lg:col-span-2 lg:mr-10 flex justify-start flex-start items-center">
+          <div className="lg:ml-10 flex justify-start items-center flex-start">
+            <button className="flex gap-3 justify-center items-start bg-gray-400 w-32 rounded py-2.5 pt-1 px-3 text-gray-800">
+              5 month <IoFilterSharp size={20} />
+            </button>
+          </div>
 
           <div className="lg:ml-10 flex justify-start items-center flex-start">
-          <button className="flex gap-3 justify-center items-start bg-gray-400 w-32 rounded py-2.5 pt-1 px-3 text-gray-800">
-            5 month <IoFilterSharp size={20} />
-          </button>
-        </div>
+            <button className="flex gap-3 justify-center items-start bg-gray-400 w-32 rounded py-2.5 pt-1 px-3 text-gray-800">
+              Software <IoFilterSharp size={20} />
+            </button>
+          </div>
 
           <div className="lg:ml-10 flex justify-start items-center flex-start">
-          <button className="flex gap-3 justify-center items-start bg-gray-400 w-32 rounded py-2.5 pt-1 px-3 text-gray-800">
-            Software <IoFilterSharp size={20} />
-          </button>
-        </div>
- 
-          <div className="lg:ml-10 flex justify-start items-center flex-start">
-          <button className="flex gap-3 justify-center items-start bg-gray-400 w-32 rounded py-2.5 pt-1 px-3 text-gray-800">
-            Remote <IoFilterSharp size={20} />
-          </button>
-        </div>
+            <button className="flex gap-3 justify-center items-start bg-gray-400 w-32 rounded py-2.5 pt-1 px-3 text-gray-800">
+              Remote <IoFilterSharp size={20} />
+            </button>
+          </div>
         </div>
       </div>
       <div className="bg-[#0041ff] mx-[4px] lg:mx-20 rounded-xl lg:py-10 text-white">
@@ -150,17 +155,17 @@ const Seeking = () => {
                       {item.description}
                     </p>
                     <div className="text-2xl font-semibold leading-10 text-center flex justify-start items-center gap-10">
-                    <p className="text-[20px] font-bold">
-                      {item.time}
-                    </p>
-                    <p className="text-[20px] font-bold">{item.deadline}</p>
+                      <p className="text-[20px] font-bold">{item.time}</p>
+                      <p className="text-[20px] font-bold">{item.deadline}</p>
                     </div>
                   </div>
                   <div className="flex flex-end justify-end items-start gap-2">
-                    <p className="pr-4 text-lg sm:pr-6 md:pr-16 lg:pr-60 xl:pr-96 text-sm lg:mr-40">
-                     Addis Ababa, Ethiopia
+                    <p className="pr-4 sm:pr-6 md:pr-16 lg:pr-60 xl:pr-96 text-sm lg:mr-40">
+                      Addis Ababa, Ethiopia
                     </p>
-                    <FaArrowRight size={40} className="text-[#0041ff]" />
+                    <Link href={item.url}>
+                      <FaArrowRight size={40} className="text-[#0041ff]" />
+                    </Link>
                   </div>
                 </div>
               </div>

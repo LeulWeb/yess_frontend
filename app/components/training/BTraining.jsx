@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
-import you from '../../assets/you.jpg';
+import you from '../../assets/imp.png';
+// import imp from '../../assets/imp.png';
+
 
 const BTraining =()=>{
     return(

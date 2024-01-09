@@ -26,8 +26,8 @@ const Complete = () => {
                 <Image src={con} alt='' width={150} height={150} />
               </div>
               <div className="text-white sm:pl-8 text-center flex flex-col items-center lg:ml-5 ">
-                <h1 className=" font-semibold pb-6 text-center">4</h1>
-                <h1 className=" font-semibold text-center">
+                <h1 className="tes font-semibold pb-6 text-center">4</h1>
+                <h1 className="tes font-semibold text-center">
                   Coming Soon.
                 </h1>
               </div>
