@@ -5,6 +5,10 @@ import React, { useState } from 'react';
 import './horizontal.css'; // Import the CSS file
 import reco1 from '../../assets/reco1.png';
 import reco2 from '../../assets/reco2.png';
+import reco3 from '../../assets/reco1.png';
+import reco4 from '../../assets/reco2.png';
+import reco5 from '../../assets/reco1.png';
+import reco6 from '../../assets/reco2.png';
 import Image from 'next/image';
 
 const Horizontal = () => {
@@ -15,7 +19,7 @@ const Horizontal = () => {
   };
 
   const getCarouselItem = (index) => {
-    const images = [reco1, reco2];
+    const images = [reco1, reco2, reco3, reco4, reco5, reco6];
 
     const totalImages = images.length;
     const normalizedIndex = (index + totalImages) % totalImages;

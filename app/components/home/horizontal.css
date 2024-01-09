@@ -18,8 +18,8 @@
 .carousel-image {
   cursor: pointer;
   transition: transform 0.3s, font-weight 0.3s, z-index 0.3s;
-  margin-right: 10px; /* Add margin to the right of each image */
-  margin-left: 10px; /* Add margin to the left of each image */
+  margin-right: -10px; /* Add margin to the right of each image */
+  margin-left: -10px; /* Add margin to the left of each image */
   width: 300px; /* Default width */
   height: 400px; /* Default height */
   max-width: 100%; /* Ensure images don't exceed their container's width */
