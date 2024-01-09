@@ -43,7 +43,7 @@ const Seeking = () => {
       image: fewis,
       title: 'Internship',
       description:
-        'Helder Technologies Solution PLC want to hire a Mobile app developer. if you are interested to work on a startup company Welcome to Helder Technologies Solution',
+        'Fewis Digital Medical solution want to an internship for a medical profession at its companies if you are interested apply below',
       time: 'Full Time',
       deadline: 'Oct 05, 2023',
       url: '/fewis',
