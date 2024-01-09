@@ -1,5 +1,5 @@
 import React from 'react'
-import you from '../../assets/you.jpg';
+import you from '../../assets/yess.png';
 import Image from 'next/image';
 
 
@@ -12,8 +12,8 @@ const Why = ()=>{
                     Training for youth?</h1>
                     <p className='text-white text-[28px] text-center font-[700px] py-4'>  At Yess Ethiopia, our mission is to empower young individuals through carefully crafted training programs, equipping them with the skills, knowledge, and confidence needed to navigate today's challenges and make a positive impact on their communities and beyond. </p>
                 </div>
-                <div className='rounded-full mx-2 lg:ml-28 lg:w-2/5'>
-                    <Image src={you} alt="Why Yess" width={200} height={200}  className='w-[400px] h-[400px] rounded-full border-blue-800 border-[16px]'/>
+                <div className='mx-2 lg:ml-28 lg:w-2/5'>
+                    <Image src={you} alt="Why Yess" width={200} height={200}  className='w-[400px] h-[400px]'/>
                 </div>
             </div>
         </div>

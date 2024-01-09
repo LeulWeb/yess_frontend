@@ -28,7 +28,7 @@ const Helder = () => {
         </div>
         <div className='flex flex-col md:flex-row gap-10  justify-center items-center py-2 '>
             <p className="text-2xl font-normal leading-13 text-left">Deadline:</p>
-            <p className="text-2xl font-normal leading-13 text-left">Aug 1, 2024</p>
+            <p className="text-2xl font-normal leading-13 text-left">Aug 1, 2023</p>
         </div>
         <div className='flex flex-col md:flex-row gap-10  justify-center items-center py-2 '>
             <p className="text-2xl font-normal leading-13 text-left">Salary/Compensation</p>
