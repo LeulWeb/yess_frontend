@@ -17,7 +17,7 @@ const Community = () => {
           >
             Search
           </label>
-          <div className="relative">
+          <div className="relative lg:ml-8">
             <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
               <svg
                 className="w-4 h-4 text-gray-500 dark:text-gray-400"
@@ -39,7 +39,7 @@ const Community = () => {
               type="search"
               id="default-search"
               className="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-              placeholder="Search Mockups, Logos..."
+              placeholder="Search Volunteers ..."
               required
             />
             <button
@@ -56,16 +56,16 @@ const Community = () => {
         </div>
       </div>
       <div>
-        <div className="h-[80vh] carousel carousel-vertical rounded-box">
+        <div className="h-full flex flex-col items-center gap-5 pb-20 justify-center rounded-box">
           {content.map((item, index)=>(
-        <div key={index} className="mx-10 py-5 carousel-item h-[500px] lg:h-[230px] overflow-hidden">
+        <div key={index} className="mx-10 py-5 h-[500px] lg:h-[250px] overflow-hidden ">
         <div className="flex flex-col md:flex-row gap-10  border-2 border-gray-300  rounded-xl">
           <Image
             src={footer}
             alt="introduction"
             width={200}
             height={200}
-            className="lg:h-[305px] h-full w-[300px] md:w-[500px] lg:w-[200px] x rounded-l-xl"
+            className="h-[250px] w-[300px] rounded-l-xl"
           />
           <div className="flex flex-col gap-6 lg:mr-20 py-6">
             <div>

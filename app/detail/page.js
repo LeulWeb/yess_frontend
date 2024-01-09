@@ -2,19 +2,21 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { CgMail } from 'react-icons/cg';
-import footer from '../../../assets/yoni.png';
-import helder from '../../../assets/helder.png';
+import footer from '../assets/yoni.png';
+import helder from '../assets/helder.png';
+// import footer from '../../../assets/yoni.png';
+// import helder from '../../../assets/helder.png';
 
 const Startups = () => {
   return (
     <div className="story">
-      <div className="mt-32  bg-white text-black">
+      <div className="bg-white text-black">
         <Image
           src={footer}
           alt="startup one"
           className="w-full"
           width={800}
-          height={700}
+          height={500}
         />
         <div className="flex justify-center items-center pt-10 px-2 sm:px-4 md:px-10 lg:px-20 gap-6 flex-wrap pb-10">
           <Image

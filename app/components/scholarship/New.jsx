@@ -81,9 +81,11 @@ const New = () => {
                 <p className="text-black text-[12px] pop">25/01/2024</p>
               </div>
             </div>
-            <button className="px-8 py-2 text-[12px] bg-[#0041ff] -mb-5  text-[#fff] font-normal rounded-xl">
-              Apply Scholarship
-            </button>
+            <Link href="https://www.su.se/english/about-the-university/work-at-su/available-jobs/phd-student-positions-1.507588">
+              <button className="px-8 py-2 text-[12px] bg-[#0041ff] -mb-5  text-[#fff] font-normal rounded-xl">
+                Apply Scholarship
+              </button>
+            </Link>
           </div>
 
           {/* Item 2 */}
@@ -124,9 +126,7 @@ const New = () => {
               </div>
               <div className="flex justify-start items-center gap-3 pop py-1">
                 <p className="text-gray-700 text-[12px]">Program </p>
-                <p className="text-black text-[12px] pop">
-                  Summer Internship
-                </p>
+                <p className="text-black text-[12px] pop">Summer Internship</p>
               </div>
               <div className="flex justify-start items-center gap-3 pop py-1">
                 <p className="text-gray-700 text-[12px]"> Program Duration </p>
@@ -149,9 +149,11 @@ const New = () => {
                 <p className="text-black text-[12px] pop">01/02/2024</p>
               </div>
             </div>
-            <button className="px-8 py-2 text-[12px] bg-[#0041ff] -mb-5  text-[#fff] font-normal rounded-xl">
-              Apply Scholarship
-            </button>
+            <Link href="https://kebenajobs.com/job/university-of-tokyo-summer-internship-dec-22-23/">
+              <button className="px-8 py-2 text-[12px] bg-[#0041ff] -mb-5  text-[#fff] font-normal rounded-xl">
+                Apply Scholarship
+              </button>
+            </Link>
           </div>
 
           {/* item 3 */}
@@ -180,12 +182,14 @@ const New = () => {
                 </div>
               </div>
               <p className="text-black text-[12px] text-start pop font-light mmk">
-              To apply for an ICP scholarships several steps need to be done. Please make sure that you start on time with your application to avoid that your dossier cannot be completed before the deadline.
+                To apply for an ICP scholarships several steps need to be done.
+                Please make sure that you start on time with your application to
+                avoid that your dossier cannot be completed before the deadline.
               </p>
               <div className="flex justify-start items-center gap-3 pop py-1 pt-5">
                 <p className="text-gray-700 text-[12px] pop">Field of Study </p>
                 <p className="text-black text-[12px] pop">
-                 Graduate School of engineering.
+                  Graduate School of engineering.
                 </p>
               </div>
               <div className="flex justify-start items-center gap-3 pop py-1">
@@ -206,18 +210,18 @@ const New = () => {
                 <p className="text-gray-700 text-[12px]">
                   University/Institution
                 </p>
-                <p className="text-black text-[12px] pop">
-                  Hawasa University
-                </p>
+                <p className="text-black text-[12px] pop">Hawasa University</p>
               </div>
               <div className="flex justify-start items-center gap-3 pop py-1">
                 <p className="text-gray-700 text-[12px]">Deadline </p>
                 <p className="text-black text-[12px] pop">23/04/2024</p>
               </div>
             </div>
-            <button className="px-8 py-2 text-[12px] bg-[#0041ff] -mb-5  text-[#fff] font-normal rounded-xl">
-              Apply Scholarship
-            </button>
+            <Link href="https://voorinschrijving.uhasselt.be/(S(yd3ahrtsa0yv3rbgsutm1tpc))/default.aspx?ReturnUrl=%2f">
+              <button className="px-8 py-2 text-[12px] bg-[#0041ff] -mb-5  text-[#fff] font-normal rounded-xl">
+                Apply Scholarship
+              </button>
+            </Link>
           </div>
         </div>
       </div>

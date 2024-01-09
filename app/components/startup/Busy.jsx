@@ -30,13 +30,14 @@ const Busy = () => {
                     <p className="text-gray-700 bu line-clamp-2 lg:line-clamp-3 text-start">
                       We are excited to share with you the training videos our
                       team produced for on personal development training that
-                      YessEthiopia record for youth. We are excited to share with you the training videos our
-                      team produced for on personal development training that
-                      YessEthiopia record for youth.
+                      YessEthiopia record for youth. We are excited to share
+                      with you the training videos our team produced for on
+                      personal development training that YessEthiopia record for
+                      youth.
                     </p>
                   </div>
                   <div className="flex flex-end flex-row justify-end items-center">
-                    <Link href="/busved">
+                    <Link href="/detail">
                       <button className=" md:py-2 text-[18px] flex justify-center items-center px-6 text-gray-600 rounded-xl mb-2 mr-3">
                         Ethiopia, Addis Ababa
                         <FaArrowRight className="ml-2 mt-1 text-[#0041ff]" />

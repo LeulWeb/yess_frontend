@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Telegram = () => {
@@ -10,9 +11,12 @@ const Telegram = () => {
       Explore the Scholarship Hub to access a wealth of information and resources that will guide you towards achieving your educational goals. We believe in the power of education and are committed to supporting you every step of the way.
       </p>
       <div className="flex flex-center justify-center items-center mt-6">
-        <button className="bg-[#0041ff] py-2 text-[18px] px-6 text-white rounded-xl">
-          Telegram Link
+        
+        <Link href="https://t.me/yessethiopia/1">
+          <button className="bg-[#0041ff] py-2 text-[18px] px-6 text-white rounded-xl">
+          Join Our Community
         </button>
+        </Link>
       </div>
     </div>
   );
