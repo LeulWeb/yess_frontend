@@ -14,7 +14,7 @@ const Focal = () => {
             <h1 className="font-bold tes py-10 text-center pt-10">
               Yess Ethiopia
             </h1>
-            <p className="pop px-2 text-[25px] text-lg font-light leading-9 text-center lg:px-10">
+            <p className="pop px-2 text-[25px] text-lg font-light leading-9 text-center lg:px-10 yes">
               Yess Ethiopia operates with dedicated focal points strategically
               placed in different cities and universities, both within Ethiopia
               and internationally. These focal points serve as vital connections
@@ -22,7 +22,7 @@ const Focal = () => {
             </p>
           </div>
         </div>
-        <div className=" mx-2 sm:mx-6 md:mx-12 lg:mx-24 lg:col-span-2 lg:w-3/5">
+        <div className=" mx-2 sm:mx-6 md:mx-12 lg:mx-24 lg:w-3/5">
           <div className="h-screen carousel carousel-vertical hidden sm:block">
             <div className="carousel-item ">
               <div className="flex gap-5 md:gap-10 lg:gap-16 py-8 justify-start items-center ">

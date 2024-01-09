@@ -388,3 +388,19 @@ border-radius: 16px;
     line-height: 30px;
   }
 }
+.yes {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 600px) {
+  .yes {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
