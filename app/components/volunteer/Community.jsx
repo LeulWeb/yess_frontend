@@ -16,7 +16,7 @@ const Community = () => {
       description:
         "Yess Ethiopia's visit to Fikir Children and Mothers Charity marked a heartwarming and impactful occasion, leaving a positive impression on both organizations. The collaboration aimed to extend support and bring joy to the lives of children and mothers in need. Yess Ethiopia, with its commitment to community development, recognizes the importance of collective efforts in creating positive change.",
       image: bego,
-      url: '/bego',
+      url: '/fikir',
       date: 'Dec 13, 23 ',
     },
     {
@@ -117,7 +117,7 @@ const Community = () => {
                     </p>
                   </div>
                   <div className="flex flex-end justify-end items-center gap-10">
-                    <p className="pr-4 sm:pr-6 md:pr-16 lg:pr-60 xl:pr-96 text-sm lg:mr-40">
+                    <p className="pr-4 sm:pr-6 md:pr-16 lg:pr-60 xl:pr-96 text-base pop lg:mr-40 text-gray-700 font-semibold">
                       {item.date}
                     </p>
                     <Link href={item.url}>
