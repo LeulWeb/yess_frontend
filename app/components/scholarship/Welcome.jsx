@@ -4,7 +4,7 @@ import React from 'react';
 
 const Welcome = () => {
   return (
-    <div className=" sco w-screen h-full min-w-screen bg-cover bg-no-repeat">
+    <div className=" scola w-screen h-full min-w-screen bg-cover bg-no-repeat">
       <div className="grid grid-cols-1 md:grid-cols-3 px-2 sm:px-6 md:px-12 lg:px-32 lg:mr-32 gap-10 py-20">
         <div className="md:col-span-2 flex flex-col px-2 md:px-4 lg:px-6">
           <h1 className="text-white tes text-center py-6 font-bold">

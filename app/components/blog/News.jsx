@@ -8,7 +8,24 @@ import { FaArrowRight } from "react-icons/fa";
 
 const News=()=>{
 
-    const news = [1, 2, 3, 4, 5, 6, 7, 8, 9 ,0];
+    // const news = [1, 2, 3, 4, 5, 6, 7, 8, 9 ,0];
+    const news=[
+      {
+        "title":"PhD study opportunity",
+        "posted":"January 13, 2023",
+        "description":"The UKFS-CDT will train up to 60 interdisciplinary doctoral researchers capable of leading the UK towards a resilient, healthy and inclusive food future. Cohort 3 will start in autumn of 2023."
+      },
+      {
+        "title":"Business in USA",
+        "posted":" December 27, 2022",
+        "description":"To rank America’s Top States for Business in 2022, CNBC scored all 50 states on 88 metrics in 10 broad categories of competitiveness. Each category is weighted based on how frequently states use them as a selling point in economic development marketing materials."
+      },
+      {
+        "title":"Tongue Twisters",
+        "posted":"November 16, 2022",
+        "description":"Tongue twisters are a great way to practice and improve pronunciation and fluency. They can also help to improve accents by using alliteration, which is the repetition of one sound."
+      },
+    ]
     return(
         <div>
             <div>
@@ -31,27 +48,19 @@ const News=()=>{
                 />
                 <div className="py-3 px-3 flex flex-col items-center justify-start text-start">
                 <div className="  flex flex-col items-center justify-start flex-start">
-                  <h1 className="text-white text-[30px] font-bold text-start -ml-16">Lorem lorem lorem lomre</h1>
+                  <h1 className="text-white text-[30px] font-bold text-start -ml-16">{items.title}</h1>
                 </div>
                 <p className="text-white text-[12px] text-start pop font-light">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                   Reprehenderit ratione quis esse, fuga fugiat dolorum 
-                   corrupti vel ab inventore facere, architecto earum omnis 
-                   nobis doloribus accusantium nam! Libero, omnis porro? 
+                  {items.description} 
                 </p>
                 <div className="flex justify-between items-center gap-10 border-t-2 py-4 mt-4 border-white w-full text-white">
                  <div>
                  <div className="text-gray-200  text-[14px] flex gap-6 justify-start items-center flex-start">
                 <div className='flex justify-start items-center gap-2'>
                 <CiCalendarDate size={20}/>
-                 <p className="text-sm">Dec 30, 2023</p>
+                 <p className="text-sm">{items.posted}</p>
                 </div>
-                 <p className="text-sm">12:00 pm</p>
                  </div>
-                 </div>
-                 <div className="text-white  text-[14px] flex gap-2 justify-end flex-end items-center">
-                    <CgEye size={20}/>
-                    <p className="text-sm">2k view </p>
                  </div>
                 </div>
                 </div>
