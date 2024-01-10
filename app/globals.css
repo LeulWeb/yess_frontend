@@ -30,7 +30,9 @@ body, h1, li, p{
   font-family: 'Crimson Text', serif;
 }
 
-
+.pop{
+  font-family: 'Poppins', serif;
+}
 
 .pas {
   font-size: 30px;

@@ -43,7 +43,7 @@ function Navbar() {
 
 
   return (
-    <div className={`sticky top-0 py-2 z-20 bg-white ${scrolled ? 'lg:bg-white' : 'lg:bg-transparent bg-opacity-75 backdrop-blur-sm'}`}>
+    <div className={`sticky top-0 py-2 z-20 bg-white ${scrolled ? 'lg:bg-white' : 'lg:bg-transparent bg-opacity-20 backdrop-blur-sm'}`}>
       <nav className={`navbar py-2  lg:px-5`}>
         <Link href='/' className='flex items-center justify-start py-2' onClick={closeMobileMenu}>
           <Image src={emo} alt="Emointel Leaders Corner" width={150} height={150} />
