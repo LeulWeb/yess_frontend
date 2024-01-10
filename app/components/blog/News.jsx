@@ -2,28 +2,31 @@ import Image from 'next/image';
 import React from 'react';
 import { CiCalendarDate } from "react-icons/ci";
 import footer from '../../assets/you.jpg';
-import { CgEye } from 'react-icons/cg';
+import blog2 from '../../assets/blog2.jpg';
+import blog3 from '../../assets/blog3.jpg';
 import { FaArrowRight } from "react-icons/fa";
 
 
 const News=()=>{
 
-    // const news = [1, 2, 3, 4, 5, 6, 7, 8, 9 ,0];
     const news=[
       {
         "title":"PhD study opportunity",
         "posted":"January 13, 2023",
-        "description":"The UKFS-CDT will train up to 60 interdisciplinary doctoral researchers capable of leading the UK towards a resilient, healthy and inclusive food future. Cohort 3 will start in autumn of 2023."
+        "description":"The UKFS-CDT will train up to 60 interdisciplinary doctoral researchers capable of leading the UK towards a resilient, healthy and inclusive food future. Cohort 3 will start in autumn of 2023.",
+        "image":footer,
       },
       {
         "title":"Business in USA",
         "posted":" December 27, 2022",
-        "description":"To rank America’s Top States for Business in 2022, CNBC scored all 50 states on 88 metrics in 10 broad categories of competitiveness. Each category is weighted based on how frequently states use them as a selling point in economic development marketing materials."
+        "description":"To rank America’s Top States for Business in 2022, CNBC scored all 50 states on 88 metrics in 10 broad categories of competitiveness. Each category is weighted based on how frequently states use them as a selling point in economic development marketing materials.",
+        "image":blog2,
       },
       {
-        "title":"Tongue Twisters",
-        "posted":"November 16, 2022",
-        "description":"Tongue twisters are a great way to practice and improve pronunciation and fluency. They can also help to improve accents by using alliteration, which is the repetition of one sound."
+        "title":"Social Media experience by a Girl",
+        "posted":"September 22, 2020",
+        "description":"The first social media I used was Facebook when I was a grade 9 student. I used it for reading different kind of quotes, have a chat with family members and classmates. I was a friend to very close and known persons. So I didn’t get a chance to see the other side effect of social media.",
+        "image":blog3,
       },
     ]
     return(

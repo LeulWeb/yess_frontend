@@ -1,11 +1,16 @@
 import Image from 'next/image';
 import React from 'react'
 import home from '../assets/yoni.png';
+import blog3 from '../assets/blog3.jpg';
+import blog2 from '../assets/blog2.jpg';
+
+import Link from 'next/link';
 
 const page = () => {
   return (
-    <div>
-      <div>
+<div>
+<div className="flex flex-col lg:flex-row justify-start items-start gap-3">
+      <div className="lg:w-4/5">
         <Image src={home} alt="News One" width={500} height={600}  className='w-screen h-[87vh]'/>
         <p className="text-center font-semibold text-[30px] lg:text-[50px] pt-5">PhD study opportunity</p>
         <p className="text-end px-2 sm:px-5 md:px-12 lg:px-28 text-[#0041ff] text-[16px] py-3">Posted on January 13, 2023</p>
@@ -33,10 +38,56 @@ College, IBERS at Aberystwyth University, Centre for Food Policy at City Univers
 Brunel University London; and two leading agricultural research institutes, NIAB EMR and Rothamsted Research, 
 plus over 50 food systems Academy partners from business, government and civil society.
 <br/><br/>
-For more information, please visit this website
-https://foodsystems-cdt.ac.uk/doctoral-programme</p>
+</p>
+<p className="flex flex-col justify-center text-center items-centre text-[25px] pb-5 md:text-[30px]">For more information, please visit this website <br/>
+<span className='text-[#0041ff]'>https://foodsystems-cdt.ac.uk/doctoral-programme</span></p>
+      </div>
+      <div className="hidden:lg:w-1/5 pt-20">
+        <div className="flex w-full justify-start items-start flex-col gap-10">
+          <div className="card w-96 glass">
+            <figure>
+              <Image
+                src={blog2}
+                alt="blog2!"
+                width={300}
+                height={200}
+                className="h-[200px] w-full"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Life hack</h2>
+              <p>How to park your car at your garage?</p>
+              <div className="card-actions justify-end">
+              <Link href="/news2">
+              <button className="btn bg-[#0041ff] text-white hover:text-black font-light hover:font-semibold pop">Read More</button>               
+               </Link>             
+                </div>
+            </div>
+          </div>
+          <div className="card w-96 glass">
+            <figure>
+              <Image
+                src={blog3}
+                alt="blog3!"
+                width={300}
+                height={200}
+                className="h-[200px] w-full"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Life hack</h2>
+              <p>How to park your car at your garage?</p>
+              <div className="card-actions justify-end">
+                <Link href="/news3">
+                <button className="btn bg-[#0041ff] text-white hover:text-black font-light hover:font-semibold pop">Read More</button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+</div>
   )
 }
 

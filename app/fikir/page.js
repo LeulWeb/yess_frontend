@@ -11,7 +11,7 @@ import { FaAddressBook } from 'react-icons/fa';
 const Fikir = () => {
   return (
     <div className="story">
-      <div className="bg-white text-black">
+      <div className="text-black">
         <Image
           src={footer}
           alt="startup one"
@@ -35,7 +35,7 @@ Yess Ethiopia continues to foster partnerships with organizations like Fikir Chi
           </p>
         </div>
         <div className="flex justify-between items-start px-4 sm:px-8 md:px-16 lg:px-32 py-10">
-          <div className="ml-2 md:ml-4 lg:ml-10 py-4 lg:py-10 flex flex-col items-center justify-start gap-3 flex-start  pop font-medium">
+          <div className="ml-2 md:ml-4 lg:ml-10 py-4 lg:py-10 flex flex-col items-center justify-start gap-3 flex-start  pop font-medium lg:w-1/5">
             <div className="flex justify-start items-start lg:-ml-6 text-start">
               <CgMail size={30}  className="font-normal"/>
               <p className="pl-5 pop lg:text-[20px]">Elders above 65</p>
@@ -50,9 +50,31 @@ Addis Ababa, Ethiopia</p>
               <p className="pl-5 pop lg:text-[20px]">3hr</p>
             </div>
           </div>
-          <div>
-            <Link href="#" className='text-[#0014ff] text-[25px] lg:pr-24'>Watch on Youtube</Link>
+          <div className="hidden lg:block lg:w-1/5"></div>
+          <div className="lg:w-2/5 px-2 sm:px-6 md:px-12 lg:px-32">    
+            <form></form>
+            <div>
+                <label className="pop font-medium text-gray-700 py-3 text-lg lg:text-[30px] border-gray-700 mb-3">Full Name</label>
+                <input type="text" placeholder='John Doe' className="px-8 w-full py-3 rounded placeholder:text-sm"/>
+            </div>
+            <div className="pt-6">
+                <label className="pop font-medium text-gray-700 py-3 mb-3 text-lg lg:text-[30px] border-gray-700 ">Phone Number</label>
+                <input type="password" placeholder='***********' className="px-8 w-full py-3 rounded placeholder:text-sm"/>
+            </div>
+            <div className="pt-6">
+                <label className="pop font-medium text-gray-700 py-3 mb-3 text-lg lg:text-[30px] border-gray-700 ">Why are you interested</label>
+                <textarea cols={30} rows={3}  className="px-8 w-full py-3 rounded placeholder:text-sm"/>
+            </div>
+            <div className="pt-6 flex justify-center items-center">
+                {/* <button type="submit">Volunteer Now</button> */}
+                <p
+              className='bg-[#0041ff] pop hover:bg-blue-800 hover:py-3 hover:px-10 hover:text-[20px] lg:hover:px-8 lg:hover:py-2  py-2 px-8 text-[16px] lg:text-[20px] rounded text-white'
+            >
+              Volunteer Now
+            </p>
+            </div>
           </div>
+          <div className="hidden lg:block lg:w-1/5"></div>
         </div>
       </div>
     </div>
