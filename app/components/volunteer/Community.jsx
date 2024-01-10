@@ -1,17 +1,55 @@
 import React from 'react';
 import { IoFilter } from 'react-icons/io5';
-import footer from '../../assets/footer.jpg';
+import bego from '../../assets/bego.png';
+import tesfa from '../../assets/tesfa.png';
+import mek from '../../assets/mek.png';
+import rohobot from '../../assets/rohobot.png';
 import Image from 'next/image';
 import { FaRegCirclePlay } from 'react-icons/fa6';
 import { FaArrowRight } from 'react-icons/fa6';
+import Link from 'next/link';
 
 const Community = () => {
+  const community = [
+    {
+      name: 'Fikir charity for children and mothers',
+      description:
+        "Yess Ethiopia's visit to Fikir Children and Mothers Charity marked a heartwarming and impactful occasion, leaving a positive impression on both organizations. The collaboration aimed to extend support and bring joy to the lives of children and mothers in need. Yess Ethiopia, with its commitment to community development, recognizes the importance of collective efforts in creating positive change.",
+      image: bego,
+      url: '/bego',
+      date: 'Dec 13, 23 ',
+    },
+    {
+      name: 'Visited mekedonia at Jimma',
+      description:
+        "Yess Ethiopia's visit to Mekedonia in Jimma was a significant and enriching experience for both organizations. This collaborative effort aimed to strengthen ties, share insights, and extend support to the community. Mekedonia, with its dedication to community development, aligns with Yess Ethiopia's mission to empower and uplift individuals.",
+      image: mek,
+      url: '/mek',
+      date: 'Dec 30, 23  ',
+    },
+    {
+      name: 'Visited Tesfa Adis Parents Childhood Cancer Center organization',
+      description:
+        'The members of YESS Ethiopia Jimma team conducted Free Health Check-Up Service for the Elderly at Mecdonia and visited Tesfa Adis Parents Childhood Cancer Center Organization for Future Collaboration.',
+      image: tesfa,
+      url: '/tesfa',
+      date: 'Jan 1, 24  ',
+    },
+    {
+      name: 'Volunteering at Rohobot Orphanage',
+      description:
+        'YessEthiopia hawasa team is volunteering at Rohobot Orphanage, located in Hawasa, Rohobot is a home for children who have been abandoned and found on the streets at just a few days old. These vulnerable infants are in desperate need of care and support, and the orphanage provides a safe and nurturing environment for them to thrive.',
+      image: rohobot,
+      url: '/rohobot',
+      date: 'Jan 10, 24  ',
+    },
+  ];
   return (
     <div className="story bg-cover bg-no-repeat text-black">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-10 px-2 sm:px-6 md:px-12 lg:px-44 xl:px-60">
         <form className="lg:col-span-2">
           <label
-            for="default-search"
+            htmlFor="default-search"
             className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
           >
             Search
@@ -56,36 +94,40 @@ const Community = () => {
       </div>
       <div>
         <div className="h-full flex flex-col items-center gap-5 pb-20 justify-center rounded-box">
-          <div className="mx-10 py-5 h-[500px] lg:h-[294px] overflow-hidden ">
-            <div className="flex flex-col md:flex-row gap-10  border-2 border-gray-300  rounded-xl">
-              <Image
-                src={footer}
-                alt="introduction"
-                width={200}
-                height={200}
-                className="h-[294px] w-[300px] rounded-l-xl"
-              />
-              <div className="flex flex-col gap-6 lg:mr-20 py-6">
-                <div>
-                  <p className="font-bold text-[30px] pl-5 text-center py-2">
-                    Community Catalysts: Join Us in Making a Difference!
-                  </p>
-                  <p className="text-gray-700 font-light pop text-[16px] line-clamp-2 lg:line-clamp-3 text-center">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Incidunt accusamus corrupti, voluptatem reiciendis voluptate
-                    similique esse quam excepturi ea dolorem molestias numquam
-                    sequi est omnis, soluta, voluptatibus eum expedita quaerat.
-                  </p>
-                </div>
-                <div className="flex flex-end justify-end items-center gap-10">
-                  <p className="pr-4 sm:pr-6 md:pr-16 lg:pr-60 xl:pr-96 text-sm lg:mr-40">
-                    Dec 30
-                  </p>
-                  <FaArrowRight size={40} className="text-[#0041ff]" />
+          {community.map((item, index) => (
+            <div
+              key={index}
+              className="mx-10 py-5 h-full lmd:h-[500px] lg:h-[298px] overflow-hidden "
+            >
+              <div className="flex flex-col md:flex-row gap-10  border-2 border-b-4 border-gray-300  rounded-xl">
+                <Image
+                  src={item.image}
+                  alt={item.name}
+                  width={300}
+                  height={200}
+                  className="lg:h-[294px] w-300 lg:w-[400px] rounded-l-xl"
+                />
+                <div className="flex flex-col gap-6 lg:mr-20 py-6">
+                  <div>
+                    <p className="font-bold text-[30px] pl-5 text-center py-2">
+                      {item.name}!
+                    </p>
+                    <p className="text-gray-700 font-light pop text-[16px] lg:text-[20px] line-clamp-2 lg:line-clamp-4 text-start">
+                      {item.description}
+                    </p>
+                  </div>
+                  <div className="flex flex-end justify-end items-center gap-10">
+                    <p className="pr-4 sm:pr-6 md:pr-16 lg:pr-60 xl:pr-96 text-sm lg:mr-40">
+                      {item.date}
+                    </p>
+                    <Link href={item.url}>
+                      <FaArrowRight size={40} className="text-[#0041ff]" />
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>

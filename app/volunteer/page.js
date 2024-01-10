@@ -1,12 +1,12 @@
 import React from 'react'
-import Volunterism from '../components/volunteer/Volunterism';
+import Volunteerism from '../components/volunteer/Volunteerism';
 import Community from '../components/volunteer/Community';
 
 const Volunteer
  = () => {
   return (
-    <div>
-        <Volunterism />
+    <div className='overflow-x-hidden'>
+        <Volunteerism />
         <Community />
     </div>
   )
