@@ -123,6 +123,21 @@ body, h1, li, p{
 .achi{
   background-image: url('../app/assets/achi.png');
 }
+.tru{
+    background-image: url('../app/assets/tru.png');
+}
+
+.star{
+  background-image: url('../app/assets/star.png');
+}
+
+.sco{
+  background-image: url('../app/assets/sco.png');
+}
+
+.vol{
+  background-image: url('../app/assets/vol.png');
+}
 .pod{
 height: 191px;
 top: 775px;

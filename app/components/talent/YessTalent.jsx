@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-// import you from '../../assets/you.jpg';
+
 
 const YessTalent = () => {
   return (
@@ -9,10 +9,7 @@ const YessTalent = () => {
         <div className="md:col-span-2 flex flex-col px-2 md:px-4 lg:px-6">
         <h1 className="text-white tes text-center py-6 font-bold">Yess Talent</h1>
           <p className="text-white text-center py-2 text-[20px]">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
-            veniam minima vero, nostrum facere impedit beatae delectus unde,
-            obcaecati quae veritatis deserunt, culpa maxime earum ea id
-            exercitationem at iste? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error eaque nulla, molestias similique tempore dolorem, quis dolorum iste necessitatibus nobis provident ipsa deleniti officiis maxime voluptatibus fugit debitis. Aspernatur, totam!
+          Yess Ethiopia passionately encourages students, providing unwavering support to help them achieve their goals. The organization not only uplifts and empowers students but also recognizes and rewards excellence.
           </p>
         </div>
         <div className="sm:py-24 lg:py-0  ml-2 sm:ml-6 md:ml-12 lg:ml-32">

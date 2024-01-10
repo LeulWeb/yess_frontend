@@ -8,6 +8,7 @@ import './scholar.css';
 import mms from '../../assets/mmk.png';
 import tokyo from '../../assets/tokyo.png';
 import icp from '../../assets/icp.png';
+import Link from 'next/link';
 
 const New = () => {
   return (
