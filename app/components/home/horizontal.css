@@ -34,6 +34,7 @@
   height: auto; /* Maintain the aspect ratio */
   max-width: 448px !important; /* Selected max-width */
   max-height: 551px !important; /* Selected max-height */
+  margin-top:-70px !important;
 }
 
 /* Optional: Style for the entire page */

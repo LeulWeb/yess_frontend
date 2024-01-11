@@ -1,57 +1,50 @@
-import React from 'react';
-import './slide.css'; // Adjust the path based on your project structure
-import footer from '../../assets/footer.jpg';
-import guid1 from '../../assets/guid1.png';
-import guid2 from '../../assets/guid2.png';
-import guid3 from '../../assets/guid3.png';
+'use client';
 
+// Horizontal.js
+import React, { useState } from 'react';
+import './horizontal.css'; // Import the CSS file
+import reco1 from '../../assets/med3.png';
+import reco2 from '../../assets/med2.png';
+import reco3 from '../../assets/med1.png';
 import Image from 'next/image';
 
 const Slide = () => {
-  return (
-    <div className="body h-full">
-      <div className="container__slider">
-        <div className="container">
-          <input
-            type="radio"
-            name="slider"
-            id="item-1"
-            defaultChecked
-            className="in hidden"
-          />
-          <input type="radio" name="slider" id="item-2" className="in hidden" />
-          <input type="radio" name="slider" id="item-3" className="in hidden" />
+  const [selectedInput, setSelectedInput] = useState(1); // Default to the first input
 
-          <div className="cards">
-            <label className="card h-[550px] w-[420px]" htmlFor="item-1" id="selector-1">
-              <Image
-                src={guid1}
-                alt="sliders"
-                width={400}
-                height={500}
-                className="img h-[500px]"
-              />
-              <p className="text-white justify-end items-end text-end pr-10 -mt-20">Read more</p>
-            </label>
-            <label className="card" htmlFor="item-2" id="selector-2">
-              <Image
-                src={guid2}
-                alt="sliders"
-                width={400}
-                height={500}
-                className="img h-[500px]"
-              />
-            </label>
-            <label className="card" htmlFor="item-3" id="selector-3">
-              <Image
-                src={guid3}
-                alt="sliders"
-                width={400}
-                height={400}
-                className="img h-[500px]"
-              />
-            </label>
-          </div>
+  const handleImageClick = (inputNumber) => {
+    setSelectedInput(inputNumber);
+  };
+
+  const getCarouselItem = (index) => {
+    const images = [reco1, reco2, reco3];
+
+    const totalImages = images.length;
+    const normalizedIndex = (index + totalImages) % totalImages;
+
+    const isSelected = selectedInput === normalizedIndex;
+
+    return (
+      <Image
+        key={normalizedIndex}
+        src={images[normalizedIndex]}
+        alt={`Option ${normalizedIndex + 1}`}
+        width={400}
+        height={450}
+        className={`carousel-image ${isSelected ? 'selected' : ''}`}
+        onClick={() => handleImageClick(normalizedIndex)}
+      />
+    );
+  };
+
+  return (
+    <div className="px-20 lg:px-32">
+      <div className="carousel-container carousel carousel-center h-[500px] py-5 bod ">
+        <div className="image-options carousel-item w-screen h-[500px] pt-3">
+          {/* {getCarouselItem(selectedInput - 2)} */}
+          {getCarouselItem(selectedInput - 1)}
+          {getCarouselItem(selectedInput)}
+          {getCarouselItem(selectedInput + 1)}
+          {/* {getCarouselItem(selectedInput + 2)} */}
         </div>
       </div>
     </div>

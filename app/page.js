@@ -17,6 +17,7 @@ import Reco from './components/home/Reco';
 import Slide from './components/home/Slide';
 import Testimonial from './components/home/Testimonial';
 import React from 'react';
+import Slide2 from './components/home/Slide2';
 
 const Home = () => {
   const [isLargeScreen, setIsLargeScreen] = useState(false);
@@ -53,8 +54,15 @@ const Home = () => {
         <CallToAction />
       </div>
       {/* <div className="overflow-x-hidden overflow-y-visible"> */}
+        <div className='med bg-cover bg-no-repeat'>
         <Media />
-        <Slide />
+        {/* <Slide /> */}
+        <div >
+      {isLargeScreen ? (
+        <Slide />     ) : (
+<Slide2 />      )}
+    </div>
+        </div>
       {/* </div> */}
       <Input />
       <div className="overflow-x-hidden">

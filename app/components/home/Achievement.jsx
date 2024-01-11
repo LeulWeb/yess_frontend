@@ -12,12 +12,12 @@ const Achievement = () => {
               <div className="carousel-item">
                 <div className="flex gap-5 md:gap-10 lg:gap-16 py-8 justify-start items-center ">
                   <div className="bg-[#0041ff] text-white  rounded-xl ">
-                    <p className=" mx-3 py-3 text-center">
+                    <p className=" mx-3 py-3 text-center text-[20px] pop font-light">
                       Yess Ethiopia was founded in Ethiopia Hawasa city.
                     </p>
                   </div>
                   <div className=" border-gray-100 border-2 rounded-xl">
-                    <p className="text-center py-3">
+                    <p className="text-center py-3 text-[20px] pop font-light">
                       Yess Ethiopia Journey Begins November, 2019
                     </p>
                   </div>
@@ -26,12 +26,12 @@ const Achievement = () => {
               <div className="carousel-item ">
                 <div className="flex flex-row-reverse gap-5 md:gap-10 lg:gap-16 py-8 justify-start items-center ">
                   <div className="bg-[#0041ff] text-white  rounded-xl ">
-                    <p className=" mx-3 py-3 text-center">
+                    <p className=" mx-3 py-3 text-center text-[20px] pop font-light">
                       Yess Ethiopia was founded in Ethiopia Hawasa city.
                     </p>
                   </div>
                   <div className=" border-gray-100 border-2 rounded-xl">
-                    <p className="text-center py-3">
+                    <p className="text-center py-3 text-[20px] pop font-light">
                       Yess Ethiopia Journey Begins November, 2019
                     </p>
                   </div>
@@ -40,12 +40,12 @@ const Achievement = () => {
               <div className="carousel-item">
                 <div className="flex gap-5 md:gap-10 lg:gap-16 py-8 justify-start items-center ">
                   <div className="bg-[#0041ff] text-white  rounded-xl ">
-                    <p className=" mx-3 py-3 text-center">
+                    <p className=" mx-3 py-3 text-center text-[20px] pop font-light">
                       Yess Ethiopia was founded in Ethiopia Hawasa city.
                     </p>
                   </div>
                   <div className=" border-gray-100 border-2 rounded-xl">
-                    <p className="text-center py-3">
+                    <p className="text-center py-3 text-[20px] pop font-light">
                       Yess Ethiopia Journey Begins November, 2019
                     </p>
                   </div>
@@ -54,12 +54,12 @@ const Achievement = () => {
               <div className="carousel-item ">
                 <div className="flex flex-row-reverse gap-5 md:gap-10 lg:gap-16 py-8 justify-start items-center ">
                   <div className="bg-[#0041ff] text-white  rounded-xl ">
-                    <p className=" mx-3 py-3 text-center">
+                    <p className=" mx-3 py-3 text-center text-[20px] pop font-light">
                       Yess Ethiopia was founded in Ethiopia Hawasa city.
                     </p>
                   </div>
                   <div className=" border-gray-100 border-2 rounded-xl">
-                    <p className="text-center py-3">
+                    <p className="text-center py-3 text-[20px] pop font-light">
                       Yess Ethiopia Journey Begins November, 2019
                     </p>
                   </div>
@@ -68,12 +68,12 @@ const Achievement = () => {
               <div className="carousel-item ">
                 <div className="flex gap-5 md:gap-10 lg:gap-16 py-8 justify-start items-center ">
                   <div className="bg-[#0041ff] text-white  rounded-xl ">
-                    <p className=" mx-3 py-3 text-center">
+                    <p className=" mx-3 py-3 text-center text-[20px] pop font-light">
                       Yess Ethiopia was founded in Ethiopia Hawasa city.
                     </p>
                   </div>
                   <div className=" border-gray-100 border-2 rounded-xl">
-                    <p className="text-center py-3">
+                    <p className="text-center py-3 text-[20px] pop font-light">
                       Yess Ethiopia Journey Begins November, 2019
                     </p>
                   </div>
@@ -82,12 +82,12 @@ const Achievement = () => {
               <div className="carousel-item ">
                 <div className="flex flex-row-reverse gap-5 md:gap-10 lg:gap-16 py-8 justify-start items-center ">
                   <div className="bg-[#0041ff] text-white  rounded-xl ">
-                    <p className=" mx-3 py-3 text-center">
+                    <p className=" mx-3 py-3 text-center text-[20px] pop font-light">
                       Yess Ethiopia was founded in Ethiopia Hawasa city.
                     </p>
                   </div>
                   <div className=" border-gray-100 border-2 rounded-xl">
-                    <p className="text-center py-3">
+                    <p className="text-center py-3 text-[20px] pop font-light">
                       Yess Ethiopia Journey Begins November, 2019
                     </p>
                   </div>
@@ -96,12 +96,12 @@ const Achievement = () => {
               <div className="carousel-item">
                 <div className="flex gap-5 md:gap-10 lg:gap-16 py-8 justify-start items-center ">
                   <div className="bg-[#0041ff] text-white  rounded-xl ">
-                    <p className=" mx-3 py-3 text-center">
+                    <p className=" mx-3 py-3 text-center text-[20px] pop font-light">
                       Yess Ethiopia was founded in Ethiopia Hawasa city.
                     </p>
                   </div>
                   <div className=" border-gray-100 border-2 rounded-xl">
-                    <p className="text-center py-3">
+                    <p className="text-center py-3 text-[20px] pop font-light">
                       Yess Ethiopia Journey Begins November, 2019
                     </p>
                   </div>
