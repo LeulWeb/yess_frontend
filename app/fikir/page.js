@@ -3,9 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import { CgMail, CgTime } from 'react-icons/cg';
 import footer from '../assets/fikir.png';
-import helder from '../assets/helder.png';
 import { FaMapMarkerAlt } from "react-icons/fa";
-import { FaAddressBook } from 'react-icons/fa';
 
 
 const Fikir = () => {
@@ -15,7 +13,7 @@ const Fikir = () => {
         <Image
           src={footer}
           alt="startup one"
-          className="w-full"
+          className="w-full h-[80vh]"
           width={800}
           height={500}
         />
@@ -42,7 +40,7 @@ Yess Ethiopia continues to foster partnerships with organizations like Fikir Chi
             </div>{' '}
             <div className="flex justify-start items-start lg:ml-3 text-start">
               <FaMapMarkerAlt size={30} className='font-normal'/>
-              <p className="pl-5 pop lg:text-[20px]">Mekodonya, 22 <br/>
+              <p className="pl-5 pop lg:text-[20px]">Mekedonia, 22 <br/>
 Addis Ababa, Ethiopia</p>
             </div>
             <div className="flex justify-start items-start lg:-ml-36 test-start">
@@ -59,16 +57,15 @@ Addis Ababa, Ethiopia</p>
             </div>
             <div className="pt-6">
                 <label className="pop font-medium text-gray-700 py-3 mb-3 text-lg lg:text-[30px] border-gray-700 ">Phone Number</label>
-                <input type="password" placeholder='***********' className="px-8 w-full py-3 rounded placeholder:text-sm"/>
+                <input type="number" placeholder='09********' className="px-8 pop w-full py-3 rounded placeholder:text-sm"/>
             </div>
             <div className="pt-6">
                 <label className="pop font-medium text-gray-700 py-3 mb-3 text-lg lg:text-[30px] border-gray-700 ">Why are you interested</label>
-                <textarea cols={30} rows={3}  className="px-8 w-full py-3 rounded placeholder:text-sm"/>
+                <textarea cols={30} rows={3}  className="px-8 pop w-full py-3 rounded placeholder:text-sm"/>
             </div>
             <div className="pt-6 flex justify-center items-center">
-                {/* <button type="submit">Volunteer Now</button> */}
                 <p
-              className='bg-[#0041ff] pop hover:bg-blue-800 hover:py-3 hover:px-10 hover:text-[20px] lg:hover:px-8 lg:hover:py-2  py-2 px-8 text-[16px] lg:text-[20px] rounded text-white'
+              className='bg-[#0041ff] pop hover:bg-blue-800 hover:py-3 hover:px-10 hover:text-[20px] lg:hover:px-8 lg:hover:py-2  py-2 px-8 pop text-[16px] lg:text-[20px] rounded text-white'
             >
               Volunteer Now
             </p>

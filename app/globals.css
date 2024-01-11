@@ -26,6 +26,9 @@ li {
 body, h1, li, p{
    font-family: 'Crimson Text', serif;
 }
+button[type="submit"] {
+  @apply bg-[#0041ff] pop hover:bg-blue-800 hover:py-3 hover:px-10 hover:text-[20px] lg:hover:px-8 lg:hover:py-2 py-2 px-8 text-[16px] lg:text-[20px] rounded text-white;
+}
 .cri{
   font-family: 'Crimson Text', serif;
 }
