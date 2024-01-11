@@ -53,17 +53,14 @@ const Home = () => {
       <div className="overflow-x-hidden">
         <CallToAction />
       </div>
-      {/* <div className="overflow-x-hidden overflow-y-visible"> */}
         <div className='med bg-cover bg-no-repeat'>
         <Media />
-        {/* <Slide /> */}
         <div >
       {isLargeScreen ? (
         <Slide />     ) : (
 <Slide2 />      )}
     </div>
         </div>
-      {/* </div> */}
       <Input />
       <div className="overflow-x-hidden">
         <CallToAction2 />
