@@ -16,10 +16,9 @@ import { FaMapMarkerAlt } from 'react-icons/fa';
 import Image from 'next/image';
 
 const Footer = () => {
-  console.log('bg image', bg); // Log the background image path
 
   return (
-    <div className="overflow-x-hidden lg:h-[400px] h-full foot text-white ">
+    <div className="overflow-x-hidden lg:h-[400px] h-full foot bg-cover bg-no-repeat text-white ">
       <div>
         <div className="hero-overlay bg-opacity-50 bg-black/70"></div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-4 items-start ">

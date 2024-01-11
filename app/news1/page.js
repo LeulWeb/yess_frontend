@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react'
-import home from '../assets/yoni.png';
+import home from '../assets/you.jpg';
 import blog3 from '../assets/blog3.jpg';
 import blog2 from '../assets/blog2.jpg';
 
