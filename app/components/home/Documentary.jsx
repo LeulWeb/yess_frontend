@@ -6,7 +6,7 @@ const Documentary = () => {
   return (
     <div className="doc bg-cover bg-no-repeat h-full text-white justify-center items-center flex flex-col lg:px-10 pb-10">
       <div className="flex flex-col md:flex-row">
-        <div className="md:w-1/2 lg:w-2/5">
+        <div className="md:w-1/2 lg:w-2/5 flex flex-col items-center justify-center">
           <h1 className="text-[40px] font-bold text-center lg:-ml-10">
             Empowering Dreams
           </h1>
