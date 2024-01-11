@@ -59,9 +59,9 @@ const Seeking = () => {
     },
   ];
   return (
-    <div className="story bg-cover bg-no-repeat text-black">
+    <div className="story bg-cover bg-no-repeat text-black overflow-x-hidden">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-10 px-2 sm:px-6 md:px-12 lg:px-44 xl:px-60">
-        <form className="lg:col-span-2">
+        <form className="lg:col-span-2 md:ml-6">
           <label
             htmlFor="default-search"
             className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
@@ -90,7 +90,7 @@ const Seeking = () => {
               type="search"
               id="default-search"
               className="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-              placeholder="Search Mockups, Logos..."
+              placeholder="Search Jobs..."
               required
             />
             <button
@@ -121,15 +121,21 @@ const Seeking = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#0041ff] mx-[4px] lg:mx-20 rounded-xl lg:py-10 text-white">
-        <div className="flex gap-4 justify-start lg:mr-12 mr-4 pb-3 pl-[5px] lg:pl-10 items-center">
-          <GoQuestion size={70} />
-          <p className="pop text-[30px]">Seeking for a job</p>
+      <div className=" jo w-screen h-full overflow-x-hidden bg-cover bg-no-repeat">
+        <div className="grid grid-cols-1 md:grid-cols-3 px-2 sm:px-6 md:px-12 lg:px-32 lg:mr-32 gap-10 py-20">
+          <div className="md:col-span-2 flex flex-col px-2 md:px-4 lg:px-6">
+            <div className="flex justify-start items-center gap-5 md:pl-10 lg:pl-20 flex-wrap ">
+              <GoQuestion size={70} className='text-white '/>
+              <p className="text-white tes text-center py-6 text-[20px] md:text-[30px] lg:text-[40px] pop">Seeking for a Job</p>
+            </div>
+            <p className="text-white text-center py-2 text-[20px] md:text-[30px] lg:text-[40px] pop">
+              We empower individuals on their journey toward securing meaningful
+              employment, fostering economic independence and contributing to
+              the overall development of the community.
+            </p>
+          </div>
+          <div className="sm:py-24 lg:py-0  ml-2 sm:ml-6 md:ml-12 lg:ml-32"></div>
         </div>
-        <p className="pop text-[30px] lg:text-[42px] font-light text-center mx-[6px] lg:mx-10 px-[10px] sm:px-[30px] md:px-[50px] lg:px-[70px] text-gray-50">
-          Explore your scholarship journey with our guidance app. Let us guide
-          through the process!
-        </p>
       </div>
       <div>
         <div className="h-full rounded-box">

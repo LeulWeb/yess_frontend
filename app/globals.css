@@ -91,6 +91,9 @@ body, h1, li, p{
 .foot{
   background-image: url('../app/assets/footer.jpg');
 }
+.jo{
+  background-image: url('../app/assets/jo.png');
+}
 .faq{
   background-image: url('../app/assets/faq.jpg');
 }
