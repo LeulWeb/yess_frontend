@@ -48,7 +48,7 @@ const Input = () => {
             assists startups with expert mentorship, and our Yess Talent service
             connects skilled graduates with market needs. Together, we're
             transforming lives and communities!
-          </p>
+          </p>new
         </div>
         <div className="lg:w-[65%] md:w-[50%] w-[100%]">
           <div
