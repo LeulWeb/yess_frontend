@@ -39,7 +39,7 @@ const Input = () => {
           <p className="font-bold text-center items-center text-[40px] py-5">
             Yess Ethiopia
           </p>
-          <p className="pop px-6 text-center text-[25px]">
+          <p className="pop px-6 text-justify text-[25px]">
             YessEthiopia offers a range of services including voluntarism,
             career support, scholarships, comprehensive training, startup
             boosting, and talent linking. We foster community involvement,

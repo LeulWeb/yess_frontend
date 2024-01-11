@@ -43,9 +43,7 @@ const FAQ = () => {
           >
             <div className="p-5 ">
               <p className="mb-2 font-serif spa">
-                Flowbite is an open-source library of interactive components
-                built on top of Tailwind CSS including buttons, dropdowns,
-                modals, navbars, and more.
+              YessEthiopia is a non-profit organization dedicated to youth and education support services in Ethiopia. Established to address challenges such as unemployment among university graduates and issues related to the quality of education, YessEthiopia focuses on empowering youth through various initiatives.
               </p>
             </div>
           </div>
@@ -85,9 +83,7 @@ const FAQ = () => {
           >
             <div className="p-5 ">
               <p className="mb-2 font-serif spa">
-                Flowbite is an open-source library of interactive components
-                built on top of Tailwind CSS including buttons, dropdowns,
-                modals, navbars, and more.
+              Yes, Yess Ethiopia is described as a non-profit organization in the provided text. Non-profit organizations are often colloquially referred to as charities. The primary focus of YessEthiopia is on providing support and services related to youth and education in Ethiopia, addressing issues such as unemployment among university graduates, promoting education quality, and engaging in various charitable activities, including supporting schools, students, and teachers.
               </p>
             </div>
           </div>
@@ -128,11 +124,14 @@ const FAQ = () => {
           >
             <div className="p-5">
               <p className="mb-2 font-serif spa">
-                The main difference is that the core components from Flowbite
-                are open source under the MIT license, whereas Tailwind UI is a
-                paid product. Another difference is that Flowbite relies on
-                smaller and standalone components, whereas Tailwind UI offers
-                sections of pages.
+              YessEthiopia undertakes several initiatives to address the issue of unemployability among the youth. Some of the key initiatives mentioned in the provided text include: <br/>
+              - Training and Career Support <br/>
+              - Business Startups <br/>
+              - Youth Ideas and Inspirations <br/>
+              - Collaboration with Organizations <br/>
+              - Inspiration through Experience Sharing <br/>
+              - Mentorship Programs <br/>
+              - Collaborative Tailor-Made Training Proposals
               </p>
             </div>
           </div>
@@ -172,11 +171,7 @@ const FAQ = () => {
           >
             <div className="p-5">
               <p className="mb-2 font-serif spa">
-                The main difference is that the core components from Flowbite
-                are open source under the MIT license, whereas Tailwind UI is a
-                paid product. Another difference is that Flowbite relies on
-                smaller and standalone components, whereas Tailwind UI offers
-                sections of pages.
+              While YessEthiopia has a strong focus on education, particularly in providing support services to address issues like unemployment among university graduates and enhancing the quality of education, the organization's scope extends beyond education alone. YessEthiopia is involved in various initiatives that encompass a broader spectrum of youth development and community support.
               </p>
             </div>
           </div>

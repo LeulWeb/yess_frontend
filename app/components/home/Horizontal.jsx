@@ -48,7 +48,7 @@ const Horizontal = () => {
         Discover recommendations from professionals across sectors endorsing
         YESS Ethiopia. Join us in our mission for positive change.
       </p>
-      <div className="carousel-container carousel carousel-center h-[500px] py-5 bod ">
+      <div className="carousel-container carousel carousel-center h-full pt-24 py-5 bod ">
         <div className="image-options carousel-item w-screen h-[500px]">
           {/* {getCarouselItem(selectedInput - 2)} */}
           {getCarouselItem(selectedInput - 1)}
