@@ -5,6 +5,7 @@ import Image from 'next/image';
 import './scholar.css';
 import chev from '../../assets/chev.png';
 import ccees from '../../assets/ccees.png';
+import Link from 'next/link';
 
 const Webinar = () => {
   return (
@@ -41,9 +42,11 @@ const Webinar = () => {
                   </p>
                 </div>
                 <div className="flex flex-end justify-end items-center gap-10">
-                  <button className="bg-[#0041ff] py-2 text-[18px] px-6 text-white rounded-xl border-2 border-white">
+                  <Link href="https://www.facebook.com/groups/147124813815272">
+                    <button className="bg-[#0041ff] py-2 text-[18px] px-6 text-white rounded-xl border-2 border-white">
                     View more
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -73,9 +76,11 @@ const Webinar = () => {
                   </p>
                 </div>
                 <div className="flex flex-end justify-end items-center gap-10">
-                  <button className="bg-[#0041ff] py-2 text-[18px] px-6 text-white rounded-xl border-2 border-white">
+                  <Link href="https://www.facebook.com/ICCEES.org">
+                    <button className="bg-[#0041ff] py-2 text-[18px] px-6 text-white rounded-xl border-2 border-white">
                     View more
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>
