@@ -3,7 +3,7 @@ import { FaLinkedin } from 'react-icons/fa6';
 
 const Touch = () => {
   return (
-    <div className="flex justify-center items-center flex-col mt-24 py-10">
+    <div className="flex justify-center items-center flex-col mt-6 py-10">
       <div className="flex gap-6 flex-wrap justify-center items-center">
         <div className="rounded-2xl border-gray-100 border-2 shadow-lg shadow-gray-100 px-5 py-8  h-[550px]">
           <h1 className="font-bold text-[20px]">Get in touch</h1>
@@ -131,11 +131,8 @@ const Touch = () => {
           </form>
         </div>
         <div className="rounded-2xl border-gray-100 border-2 shadow-lg text-black shadow-gray-100 pb-8 h-[550px] w-[300px]">
-          <div className="flex justify-between items-start py-3 bg-[#0014ff] gap-5 text-white rounded-t-2xl px-5">
-            <p className="text-center">
-              Branch Office <br /> Name
-            </p>
-            <p className="text-center">Phone Number</p>
+          <div className="flex justify-center items-start py-3 bg-[#0014ff] gap-5 text-white rounded-t-2xl px-5">
+            <p className="text-center">Yess Focals</p>
           </div>
           <div className="px-5 flex flex-col py-6">
             <div className="flex flex-col justify-center items-center py-1">

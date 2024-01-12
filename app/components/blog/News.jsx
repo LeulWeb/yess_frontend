@@ -55,7 +55,7 @@ const News=()=>{
                 />
                 <div className="py-3 px-3 flex flex-col items-center justify-start text-start">
                 <div className="  flex flex-col items-center justify-start flex-start">
-                  <h1 className="text-white text-[20px] lg:text-[30px] font-bold text-start px-2 text-center line-clamp-1">{items.title}</h1>
+                  <h1 className="text-white text-[20px] lg:text-[30px] font-bold text-start px-2  line-clamp-1">{items.title}</h1>
                 </div>
                 <p className="text-white text-[12px] text-start pop font-light line-clamp-2 lg:line-clamp-3">
                   {items.description} 
