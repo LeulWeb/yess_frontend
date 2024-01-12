@@ -1,6 +1,7 @@
 import React from 'react';
 import reco1 from '../../assets/reco1.png';
 import reco2 from '../../assets/reco2.png';
+import reco3 from '../../assets/reco3.png';
 import Image from 'next/image';
 
 const Reco = () => {
@@ -27,7 +28,7 @@ const Reco = () => {
         </div>
         <div className="carousel-item px-2">
         <Image
-            src={reco1}
+            src={reco3}
             width={400}
             height={450}
             alt="Burger"

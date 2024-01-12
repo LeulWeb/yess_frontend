@@ -13,7 +13,9 @@
   @apply max-w-screen-xl mx-auto px-4;
 }
 
-
+.linko{
+  @apply w-full py-1 text-[20px] bg-white -mb-10 hover:bg-blue-200 text-[#0041ff] font-semibold rounded-xl;
+}
 
 ul {
   @apply list-none m-0 p-0 flex items-center;
@@ -110,7 +112,7 @@ button[type="submit"] {
   background-image: url('../app/assets/win.jpg');
 }
 .hero{
-  background-image: url('../app/assets/homeback.png');
+  background-image: url('../app/assets/homi.jpg');
 }
 .test{
   background-image: url('../app/assets/testi.png');

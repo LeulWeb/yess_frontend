@@ -55,9 +55,9 @@ const News=()=>{
                 />
                 <div className="py-3 px-3 flex flex-col items-center justify-start text-start">
                 <div className="  flex flex-col items-center justify-start flex-start">
-                  <h1 className="text-white text-[30px] font-bold text-start -ml-16">{items.title}</h1>
+                  <h1 className="text-white text-[20px] lg:text-[30px] font-bold text-start px-2 text-center line-clamp-1">{items.title}</h1>
                 </div>
-                <p className="text-white text-[12px] text-start pop font-light">
+                <p className="text-white text-[12px] text-start pop font-light line-clamp-2 lg:line-clamp-3">
                   {items.description} 
                 </p>
                 <div className="flex justify-between items-center gap-10 border-t-2 py-4 mt-4 border-white w-full text-white">
@@ -71,9 +71,9 @@ const News=()=>{
                  </div>
                 </div>
                 </div>
-                {/* <Link href={items.url} > */}
+                <Link href={items.url} className="linko">
                   <button className="w-full py-1 text-[20px] bg-white -mb-10 hover:bg-blue-200 text-[#0041ff] font-semibold rounded-xl">View more</button>
-                {/* </Link> */}
+                </Link>
               </div>
             )
            })}
