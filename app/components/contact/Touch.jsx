@@ -11,7 +11,7 @@ const Touch = () => {
           <p>Email:</p>
           <p className="pl-2 py-3">yessethiopia@gmail.com</p>
           <p>Phone:</p>
-          <p className="pl-2 py-3">+251912121213</p>
+          <p className="pl-2 py-3">+251 90 129 9902</p>
           <p>Social media link:</p>
           <div className="pl-2 flex flex-col items-center justify-start">
             <div className="flex justify-start py-1 mt-3 items-center">
@@ -138,58 +138,34 @@ const Touch = () => {
             <p className="text-center">Phone Number</p>
           </div>
           <div className="px-5 flex flex-col py-6">
-            <div className="flex justify-between items-center py-1">
+            <div className="flex flex-col justify-center items-center py-1">
+              <p>Addis Ababa</p>
+              <p>addisababa@yessinternational.com</p>
+            </div>
+            <div className="flex justify-center flex-col items-center py-1">
+              <p>Bahir Dar</p>
+              <p>bahirdar@yessinternational.comp </p>
+            </div>
+            <div className="flex flex-col justify-center items-center py-1">
+              <p>Hawasa</p>
+              <p>hawasa@yessinternational.com</p>
+            </div>
+            <div className="flex flex-col justify-center items-center py-1">
+              <p>Jimma</p>
+              <p>jimma@yessinternational.com</p>
+            </div>
+            <div className="flex flex-col justify-center items-center py-1">
+              <p>Mekele</p>
+              <p>mekele@yessinternational.com</p>
+            </div>
+            {/* <div className="flex justify-between items-center py-1">
               <p>Bahir Dar</p>
               <p>09********</p>
             </div>
             <div className="flex justify-between items-center py-1">
               <p>Bahir Dar</p>
               <p>09********</p>
-            </div>
-            <div className="flex justify-between items-center py-1">
-              <p>Bahir Dar</p>
-              <p>09********</p>
-            </div>
-            <div className="flex justify-between items-center py-1">
-              <p>Bahir Dar</p>
-              <p>09********</p>
-            </div>
-            <div className="flex justify-between items-center py-1">
-              <p>Bahir Dar</p>
-              <p>09********</p>
-            </div>
-            <div className="flex justify-between items-center py-1">
-              <p>Bahir Dar</p>
-              <p>09********</p>
-            </div>
-            <div className="flex justify-between items-center py-1">
-              <p>Bahir Dar</p>
-              <p>09********</p>
-            </div>
-            <div className="flex justify-between items-center py-1">
-              <p>Bahir Dar</p>
-              <p>09********</p>
-            </div>
-            <div className="flex justify-between items-center py-1">
-              <p>Bahir Dar</p>
-              <p>09********</p>
-            </div>
-            <div className="flex justify-between items-center py-1">
-              <p>Bahir Dar</p>
-              <p>09********</p>
-            </div>
-            <div className="flex justify-between items-center py-1">
-              <p>Bahir Dar</p>
-              <p>09********</p>
-            </div>
-            <div className="flex justify-between items-center py-1">
-              <p>Bahir Dar</p>
-              <p>09********</p>
-            </div>
-            <div className="flex justify-between items-center py-1">
-              <p>Bahir Dar</p>
-              <p>09********</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
