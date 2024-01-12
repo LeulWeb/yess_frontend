@@ -24,7 +24,7 @@ const Rohobot = () => {
           </div>
         </div>
         <div className="px-2 sm:px-4 md:px-10 lg:px-20">
-          <p className='text-[20px] lg:text-[32px]'>
+          <p className='text-[20px]'>
           The YessEthiopia Hawasa team has taken up a noble cause by volunteering at Rohobot Orphanage, which is situated in Hawasa. This orphanage serves as a haven for children who have been abandoned and found on the streets at a very young age, often just a few days old. These vulnerable infants are in dire need of care and support, and the orphanage plays a crucial role in providing them with a safe and nurturing environment to grow and thrive.
 <br/>
 Rohobot Orphanage is a beacon of hope for these abandoned children, offering them a second chance at life. Many of these infants have experienced unimaginable hardships and have been deprived of basic necessities and parental care. The YessEthiopia Hawasa team recognized the need to support and uplift these children, and they selflessly dedicated their time and efforts to make a positive impact on their lives.

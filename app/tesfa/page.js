@@ -25,7 +25,7 @@ const Tesfa = () => {
           </div>
         </div>
         <div className="px-2 sm:px-4 md:px-10 lg:px-20">
-          <p className='text-[20px] lg:text-[32px]'>
+          <p className='text-[20px]'>
           The members of YESS Ethiopia Jimma team recently organized and conducted a Free Health Check-Up Service for the Elderly in the community of Mekedonia. This initiative aimed to provide vital healthcare support to the elderly population and raise awareness about their healthcare needs. Additionally, the team visited the Tesfa Adis Parents Childhood Cancer Center Organization with the intention of establishing a collaborative relationship for future endeavors.
 
 The Free Health Check-Up Service for the Elderly was an essential project undertaken by the YESS Ethiopia Jimma team. Recognizing the unique healthcare challenges faced by the elderly, the team decided to organize a health check-up event to address their specific needs. The event was designed to offer comprehensive health assessments, including blood pressure measurement, blood sugar tests, vision and hearing screenings, and general physical examinations. By providing these services free of charge, the team aimed to reach a larger number of elderly individuals who may have limited access to healthcare resources.

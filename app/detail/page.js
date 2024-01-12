@@ -35,7 +35,7 @@ const Startups = () => {
           </div>
         </div>
         <div className="px-2 sm:px-4 md:px-10 lg:px-20">
-          <p className='text-[20px] lg:text-[32px]'>
+          <p className='text-[20px] '>
           Helder Technologies Solution PLC stands as a reputable and legally registered technology service provider, proudly headquartered in Addis Ababa, Ethiopia. Our comprehensive range of services encompasses the development of system software, the creation of dynamic websites and mobile applications, digital marketing strategies, proficient graphic design, and impactful training initiatives. We take pride in our commitment to delivering innovative and effective solutions that empower our clients to successfully realize their objectives.
 <br/><br/>
 As a technology-driven company, we understand the evolving landscape of the digital realm, and our services are designed to help businesses thrive in this dynamic environment. Whether it's establishing a strong online presence, developing customized software solutions, or imparting valuable training to enhance digital skills, Helder Technologies Solution PLC is poised to be your trusted partner on the journey to success.

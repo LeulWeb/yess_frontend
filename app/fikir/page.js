@@ -25,7 +25,7 @@ const Fikir = () => {
           </div>
         </div>
         <div className="px-2 sm:px-4 md:px-10 lg:px-20">
-          <p className='text-[20px] lg:text-[32px]'>
+          <p className='text-[20px] '>
           During the visit, the children at Fikir Charity expressed their gratitude and joy, warmly inviting the Yess Ethiopia team to engage with them. The genuine and sweet expressions of the children resonated with the core values of both organizations – a shared commitment to uplifting communities, especially the most vulnerable members. The interaction between Yess Ethiopia and Fikir Charity reflects the power of solidarity in making a meaningful impact on the lives of children and mothers.<br/><br/>
 Yess Ethiopia continues to foster partnerships with organizations like Fikir Children and Mothers Charity to collectively address societal challenges and contribute to the well-being of communities. This collaborative spirit strengthens the bonds of compassion and reinforces the belief that positive change is achievable through shared efforts and genuine connections.
 

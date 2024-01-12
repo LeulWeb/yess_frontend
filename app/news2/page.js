@@ -14,7 +14,7 @@ const page = () => {
         <Image src={home} alt="News One" width={500} height={600}  className='w-screen h-[87vh]'/>
         <p className="text-center font-semibold text-[30px] lg:text-[50px] pt-5">Business in USA</p>
         <p className="text-end px-2 sm:px-5 md:px-12 lg:px-28 text-[#0041ff] text-[16px] py-3">Posted on December 27, 2022</p>
-        <p className='text-[25px] pb-5 md:text-[30px] text-start px-2 sm:px-5 md:px-12 lg:px-28'>America&apos;s Top States for Business 2022: The full rankings
+        <p className='text-[20px] pb-5 text-start px-2 sm:px-5 md:px-12 lg:px-28'>America&apos;s Top States for Business 2022: The full rankings
 PUBLISHED WED, JUL 13 20228:09 AM EDTUPDATED WED, JUL 13 20228:39 AM EDT
 
 CNBC.com staff@CNBC

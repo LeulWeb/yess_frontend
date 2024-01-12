@@ -25,7 +25,7 @@ const Mek = () => {
           </div>
         </div>
         <div className="px-2 sm:px-4 md:px-10 lg:px-20">
-          <p className='text-[20px] lg:text-[32px]'>
+          <p className='text-[20px]'>
           Yess Ethiopia's visit to Mekedonia in Jimma proved to be a remarkable and transformative experience for both organizations involved. The purpose of this collaborative effort was to foster stronger connections, exchange valuable knowledge and resources, and provide support to the local community. Mekedonia, renowned for its commitment to community development, perfectly complemented Yess Ethiopia's mission of empowering and uplifting individuals.
 <br/>
 The visit began with a warm welcome extended by the members of Mekedonia to the representatives of Yess Ethiopia. The atmosphere was charged with enthusiasm and anticipation as both organizations recognized the immense potential for mutual growth and collaboration. The visit was carefully structured to ensure maximum interaction and knowledge sharing between the two groups.
