@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react'
-import blog1 from '../assets/you.jpg';
+import blog1 from '../assets/event3.png';
 import home from '../assets/event1.jpg';
 import blog2 from '../assets/event2.png';
 
@@ -60,26 +60,7 @@ Yess Ethiopia
       
       <div className="hidden:lg:w-1/5 pt-20">
         <div className="flex w-full justify-start items-start flex-col gap-10">
-          <div className="card w-96 glass">
-            <figure>
-              <Image
-                src={blog1}
-                alt="blog2!"
-                width={300}
-                height={200}
-                className="h-[200px] w-full"
-              />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Arsi Robe Didea School Event</h2>
-              <p className="line-clamp-2">Former students of the Arsi Robe Didea highschool in collaboration with Youth and Education Support Service</p>
-              <div className="card-actions justify-end">
-              <Link href="/blog1">
-              <button className="btn bg-[#0041ff] text-white hover:text-black font-light hover:font-semibold pop">Read More</button>               
-               </Link>             
-                </div>
-            </div>
-          </div>
+          
           <div className="card w-96 glass">
             <figure>
               <Image
@@ -95,6 +76,26 @@ Yess Ethiopia
               <p className="line-clamp-2"> We are thrilled to announce the grand celebration of the 1st Anniversary Week 52 for the YessEthiopia LinkedIn Live Networking Event! Join us on December 30, 2023, from 5 pm to 11 pm (Ethiopia Time) for an evening filled with reflection, gratitude, and forward-looking aspirations.</p>
               <div className="card-actions justify-end">
               <Link href="/event2">
+              <button className="btn bg-[#0041ff] text-white hover:text-black font-light hover:font-semibold pop">Read More</button>               
+               </Link>             
+                </div>
+            </div>
+          </div>
+          <div className="card w-96 glass">
+            <figure>
+              <Image
+                src={blog1}
+                alt="blog2!"
+                width={300}
+                height={200}
+                className="h-[200px] w-full"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title line-clamp-1">Yess Ethiopia is hosting an international conference</h2>
+              <p className="line-clamp-2">Yess Ethiopia is proud to announce the hosting of an impactful international conference centered around the theme of "Youth Experience Sharing and Collaboration." This groundbreaking event aims to provide a platform for young minds from across the globe to share their experiences, ideas, and collaborate on solutions that will shape the future</p>
+              <div className="card-actions justify-end">
+              <Link href="/event3">
               <button className="btn bg-[#0041ff] text-white hover:text-black font-light hover:font-semibold pop">Read More</button>               
                </Link>             
                 </div>

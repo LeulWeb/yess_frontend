@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react'
 import blog1 from '../assets/event1.jpg';
-import home from '../assets/blog3.jpg';
+import home from '../assets/event3.png';
 import blog2 from '../assets/event2.png';
 
 import Link from 'next/link';

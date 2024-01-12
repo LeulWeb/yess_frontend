@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { CiCalendarDate } from "react-icons/ci";
-import footer from '../../assets/you.jpg';
+import footer from '../../assets/event3.png';
 import blog2 from '../../assets/event1.jpg';
 import blog3 from '../../assets/event2.png';
 import Link from 'next/link';

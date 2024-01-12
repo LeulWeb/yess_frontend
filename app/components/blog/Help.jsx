@@ -72,11 +72,11 @@ const Help = () => {
             </div>
           </div>
         </div>
-        <div className="py-10 sm:px-10 px-4">
+        <div className="py-10 sm:px-10 px-4 z-20">
           <div>
             <div
               id="default-carousel"
-              className="relative w-full"
+              className="relative w-full z-10"
               data-carousel="slide"
             >
               {/* <!-- Carousel wrapper --> */}

@@ -43,10 +43,10 @@ function Navbar() {
 
 
   return (
-    <div className={`sticky top-0 py-2 z-20 bg-white ${scrolled ? 'lg:bg-white' : 'lg:bg-transparent bg-opacity-20 backdrop-blur-sm'}`}>
+    <div className={`sticky top-0 py-2 z-50 bg-white ${scrolled ? 'lg:bg-white' : 'lg:bg-transparent bg-opacity-20 backdrop-blur-sm'}`}>
       <nav className={`navbar py-2  lg:px-5`}>
         <Link href='/' className='flex items-center justify-start py-2' onClick={closeMobileMenu}>
-          <Image src={emo} alt="Emointel Leaders Corner" width={150} height={150} />
+          <Image src={emo} alt="Yess Ethiopia" width={150} height={150} />
         </Link>
         <div className='menu-icon' onClick={handleClick}>
           {click ? <FaTimes /> : <FaBars /> }
@@ -185,7 +185,7 @@ function Navbar() {
           </li>
           <li className='nav-item -mt-6 lg:mt-0'>
             <Link
-              href='#'
+              href='/donate'
               className=' bg-[#0041ff] hover:bg-blue-800 hover:py-3 hover:px-10 hover:text-[20px] lg:hover:px-8 lg:hover:py-2  py-2 px-8 text-[16px] lg:text-[20px] rounded text-white'
               onClick={closeMobileMenu}
             >

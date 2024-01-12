@@ -3,7 +3,7 @@ import Don from '../components/donate/Don'
 
 const Donate = () => {
   return (
-    <div className="mt-44">
+    <div className="overflow-x-hidden">
         <Don />
     </div>
   )

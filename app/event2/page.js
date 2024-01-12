@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react'
 import blog1 from '../assets/event1.jpg';
 import home from '../assets/event2.png';
-import blog2 from '../assets/blog2.jpg';
+import blog2 from '../assets/event3.png';
 
 import Link from 'next/link';
 
@@ -74,10 +74,10 @@ Yess Ethiopia
               />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">My meeting with the devil</h2>
-              <p className="line-clamp-2">There is no a better way to explain my experiences during this past one month Its meeting with the devil Yes! I did me</p>
+              <h2 className="card-title line-clamp-1">Yess Ethiopia is hosting an international conference</h2>
+              <p className="line-clamp-2">Yess Ethiopia is proud to announce the hosting of an impactful international conference centered around the theme of "Youth Experience Sharing and Collaboration." This groundbreaking event aims to provide a platform for young minds from across the globe to share their experiences, ideas, and collaborate on solutions that will shape the future</p>
               <div className="card-actions justify-end">
-              <Link href="/blog2">
+              <Link href="/event3">
               <button className="btn bg-[#0041ff] text-white hover:text-black font-light hover:font-semibold pop">Read More</button>               
                </Link>             
                 </div>
