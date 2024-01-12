@@ -1,7 +1,8 @@
 import React from 'react'
 import Complete from '../components/training2/Complete';
 import Popular from '../components/training2/Popular';
-import Business from '../components/startup/Business';
+import Business from '../components/courses/Business';
+
 
 const Employee = () => {
   return (

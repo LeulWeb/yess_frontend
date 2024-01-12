@@ -1,9 +1,8 @@
 import React from 'react';
 import footer from '../../assets/footer.jpg';
-import per from '../../assets/personal.png';
+import per from '../../assets/perdev.png';
 import emotion from '../../assets/eq.png';
 import Image from 'next/image';
-import { FaRegStar } from 'react-icons/fa6';
 import { FaArrowRight } from 'react-icons/fa';
 import Link from 'next/link';
 
@@ -23,7 +22,7 @@ const Recent = () => {
                   alt="introduction"
                   width={200}
                   height={200}
-                  className="h-[278px] w-[426px]  p-2"
+                  className="h-[274px] w-[426px]  p-2"
                 />
                 <div className="flex flex-col gap-6 lg:mr-20 lg:py-6">
                   <div>
@@ -57,7 +56,7 @@ const Recent = () => {
                   alt="introduction"
                   width={200}
                   height={200}
-                  className="h-[278px] w-[426px]  p-2"
+                  className="h-[274px] w-[426px]  p-2"
                 />
                 <div className="flex flex-col gap-6 lg:mr-20 lg:py-6">
                   <div>

@@ -16,11 +16,11 @@ const Scho1 = () => {
           <div className="flex justify-between items-center text-white px-20 pt-5">
             <div className="flex justify-center items-center gap-5">
               <GoGoal size={40} />
-              <p className="text-[20px]">3 Lessons</p>
+              <p className="text-[20px]">5 Lessons</p>
             </div>
             <div className="flex justify-center items-center gap-5">
               <IoMdTime size={40} />
-              <p className="text-[20px]">1hr 30min</p>
+              <p className="text-[20px]">2hr 30min</p>
             </div>
           </div>
         </div>

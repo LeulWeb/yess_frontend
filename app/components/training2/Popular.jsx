@@ -10,7 +10,7 @@ const Popular = () => {
         <p className="text-[45px] font-bold text-start px-2 sm:px-6 md:px-12 lg:px-28">
           Popular Courses
         </p>
-        <div className="flex flex-wrap justify-center items-center  max-w-full p-4 space-x-10 rounded-box h-full ">
+        <div className="flex flex-wrap justify-center items-center  max-w-full p-4  rounded-box h-full gap-10 flex-center ">
           <div className=" shadow-xl border-gray-50 border-4 bg-white w-[300px] rounded-box flex flex-col flex-start items-center justify-start h-full py-5">
             <FaRegStar className="w-[100px] h-[100px] rounded-full p-5 text-[#0041ff] bg-gray-100 font-light -ml-10" />
             

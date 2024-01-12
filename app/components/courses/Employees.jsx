@@ -1,7 +1,5 @@
 import React from 'react';
-import footer from '../../assets/footer.jpg';
-import per from '../../assets/personal.png';
-import emotion from '../../assets/emotion.png';
+import per from '../../assets/empoy.png';
 import Image from 'next/image';
 import { FaArrowRight } from 'react-icons/fa';
 import Link from 'next/link';

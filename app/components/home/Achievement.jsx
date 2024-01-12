@@ -112,7 +112,7 @@ const Achievement = () => {
         </div>
         <div className="h-full lg:w-2/5">
           <h1 className="font-bold py-10 text-center pt-10 tes">Yess Ethiopia</h1>
-          <p className="pop text-[18px] font-light leading-27 tracking-normal text-center sco">
+          <p className="pop text-[18px] font-light leading-27 tracking-normal text-center text-justify sco">
             In just a few short years since its inception, Yess Ethiopia has
             achieved remarkable milestones in empowering the youth and fostering
             positive change. Our scholarship programs have opened doors to

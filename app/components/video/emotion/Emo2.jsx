@@ -9,21 +9,21 @@ import Link from 'next/link';
 const Emo2 = () => {
   return (
     <div>
-      <h1 className="font-bold px-2 sm:px-4 md:px-12 lg:px-28 xl:px-32 py-10">
+      <h1 className="font-bold px-2 tes sm:px-4 md:px-12 lg:px-28 xl:px-32 py-10">
         Emotional Intelligence
       </h1>
       <p className="text-[30px] font-bold text-start pl-4">Part</p>
-      <div>
-        <div className="h-full flex flex-col gap-10 rounded-box">
+      <div className="pb-10">
+        <div className="h-full flex flex-col gap-10 justify-center items-center rounded-box">
           {/* Item 1 */}
-          <div className="mx-10 py-5 h-[500px] lg:h-[230px] overflow-hidden">
+          <div className="mx-10 py-5 h-[500px] lg:h-[294px] overflow-hidden">
             <div className="flex flex-col md:flex-row gap-10  border-2 border-gray-300  rounded-xl">
               <Image
                 src={eq}
                 alt="introduction"
                 width={200}
                 height={200}
-                className="imo lg:h-[305px] h-full w-[300px] md:w-[500px] lg:w-[200px] x rounded-l-xl"
+                className="imo lg:h-[290px] h-full w-[300px] md:w-[500px] lg:w-[200px] x rounded-l-xl"
               />
               <div className="flex justify-between items-center gap-6 lg:mr-20 py-6 pod">
                 <div>
@@ -51,14 +51,14 @@ const Emo2 = () => {
           </div>
 
           {/* Item 2 */}
-          <div className="mx-10 py-5 h-[500px] lg:h-[230px] overflow-hidden">
+          <div className="mx-10 py-5 h-[500px] lg:h-[294px] overflow-hidden">
             <div className="flex flex-col md:flex-row gap-10  border-2 border-gray-300  rounded-xl ">
               <Image
                 src={eq}
                 alt="introduction"
                 width={200}
                 height={200}
-                className="imo lg:h-[305px] h-full w-[300px] md:w-[500px] lg:w-[200px] x rounded-l-xl"
+                className="imo lg:h-[290px] h-full w-[300px] md:w-[500px] lg:w-[200px] x rounded-l-xl"
               />
               <div className="flex justify-between items-center gap-6 lg:mr-20 py-6 pod">
                 <div>

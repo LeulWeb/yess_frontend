@@ -1,5 +1,5 @@
 import React from 'react';
-import per from '../../assets/personal.png';
+import per from '../../assets/tech.png';
 import Image from 'next/image';
 import { FaArrowRight } from 'react-icons/fa';
 import Link from 'next/link';

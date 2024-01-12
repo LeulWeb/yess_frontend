@@ -1,6 +1,6 @@
 import React from 'react';
 import { IoFilter } from 'react-icons/io5';
-import eq from '../../../../assets/empoy.png';
+import eq from '../../../../assets/tech.png';
 import Image from 'next/image';
 import { FaRegCirclePlay } from 'react-icons/fa6';
 import { BsPlayCircle } from 'react-icons/bs';

@@ -1,5 +1,5 @@
 import React from 'react';
-import you from '../../../../assets/busi.png';
+import you from '../../../../assets/tech.png';
 import Image from 'next/image';
 import { GoGoal } from 'react-icons/go';
 import { IoMdTime } from 'react-icons/io';
