@@ -10,8 +10,8 @@ const Blog =()=>{
         <div className='story overflow-x-hidden'>
             <Help />
             <News />
-            <Suggestion />
             <Events />
+            <Suggestion />        
         </div>
     )
 }
