@@ -37,7 +37,7 @@ const Suggestion = () => {
       <div className="py-10">
         <div className="flex justify-between items-center">
           <p className="text-[40px] font-bold text-start px-2 sm:px-6 md:px-12 lg:px-28">
-            Blogs
+            Suggestion Spot
           </p>
           {/* <div className="flex justify-end items-center gap-2 hover:border-b-2 hover:border-[#0041ff] cursor-pointer duration-500 text-[#0041ff] px-2 sm:px-6 md:px-12 lg:px-28">
                 <p className="text-[30px]  text-start px-2 sm:px-6 md:px-12 lg:px-28 ">View More</p>
