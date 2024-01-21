@@ -29,7 +29,11 @@ const Don = () => {
                   />
                   <p className="text-white text-[25px] py-5">Yess Ethiopia</p>
                   <p className="text-lg leading-relaxed text-white px-3 cri text-center">
-                  We kindly ask for your donation to Yess Ethiopia. Your contribution will directly benefit the youth we serve, providing them with access to different crucial resources. Your donation will enable us to continue our vital work and expand our reach to help even more individuals in need.
+                    We kindly ask for your donation to Yess Ethiopia. Your
+                    contribution will directly benefit the youth we serve,
+                    providing them with access to different crucial resources.
+                    Your donation will enable us to continue our vital work and
+                    expand our reach to help even more individuals in need.
                   </p>
                 </div>
                 <div className="pop text-gray-500 dark:text-gray-400 bg-white rounded-xl px-10 py-3 md:w-[300px]  lg:w-[400px]">
@@ -72,7 +76,7 @@ const Don = () => {
                   <div className="flex items-center justify-center gap-3 py-3">
                     <Image src={chapa} alt="" width={100} height={100} />
                     <Link href="https://www.paypal.com/donate/?hosted_button_id=QPXMVXM8C3SKS">
-                    <Image src={pay} alt="" width={100} height={100} />
+                      <Image src={pay} alt="" width={100} height={100} />
                     </Link>
                   </div>
                   <div className="text-center flex justify-center items-center py-5">
