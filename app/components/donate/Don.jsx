@@ -3,6 +3,7 @@ import Image from 'next/image';
 import you from '../../assets/homi.jpg';
 import chapa from '../../assets/chapa.jpg';
 import pay from '../../assets/pay.jpg';
+import Link from 'next/link';
 
 const Don = () => {
   return (
