@@ -3,7 +3,6 @@ import Image from 'next/image';
 import you from '../../assets/homi.jpg';
 import chapa from '../../assets/chapa.jpg';
 import pay from '../../assets/pay.jpg';
-import Link from 'next/link';
 
 const Don = () => {
   return (
@@ -57,9 +56,9 @@ const Don = () => {
                     <div className="flex flex-col gap-2">
                       <label>Duration</label>
                       <select className="bg-gray-200 border-none rounded-lg w-32">
+                        <option>One Time</option>
                         <option>Monthly</option>
                         <option>Yearly</option>
-                        <option>One Time</option>
                       </select>
                     </div>
                   </div>
