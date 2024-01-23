@@ -93,6 +93,10 @@ button[type="submit"] {
 .pop{
   font-family: 'Poppins', sans-serif;
 }
+body{
+  background-image: url('../app/assets/story.jpg');
+  @apply dark:bg-white;
+}
 .foot{
   background-image: url('../app/assets/footer.jpg');
 }

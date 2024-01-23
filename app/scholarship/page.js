@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Welcome from '../components/scholarship/Welcome';
 import New from '../components/scholarship/New';
 import Guidance from '../components/scholarship/Guidance';
@@ -7,6 +7,8 @@ import Webinar from '../components/scholarship/Webinar';
 import Telegram from '../components/scholarship/Telegram';
 
 const Scholarship = () => {
+
+
   return (
     <div className=" story overflow-x-hidden">
       <Welcome />
@@ -20,3 +22,4 @@ const Scholarship = () => {
 }
 
 export default Scholarship;
+
