@@ -8,7 +8,9 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+*{
 
+}
 .container {
   @apply max-w-screen-xl mx-auto px-4;
 }
@@ -95,7 +97,7 @@ button[type="submit"] {
 }
 body{
   background-image: url('../app/assets/story.jpg');
-  @apply dark:bg-white;
+  @apply dark:lg:bg-white;
 }
 .foot{
   background-image: url('../app/assets/footer.jpg');
