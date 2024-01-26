@@ -1,5 +1,4 @@
 import React from 'react';
-import MySlider from './Slider';
 import test1 from '../../assets/test1.png';
 import test2 from '../../assets/test2.jpg';
 import test3 from '../../assets/test3.jpg';
