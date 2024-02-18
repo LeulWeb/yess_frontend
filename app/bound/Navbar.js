@@ -174,15 +174,6 @@ function Navbar() {
               Contact
             </Link>
           </li>
-          <li className='nav-item'>
-            <Link
-              href='/#'
-              className=' bg-[#0041ff] hover:bg-blue-800 hover:py-3 hover:px-10 hover:text-[20px] lg:hover:px-8 lg:hover:py-2  py-2 px-8 text-[16px] lg:text-[20px] rounded text-white'
-              onClick={closeMobileMenu}
-            >
-              Join us
-            </Link>
-          </li>
           <li className='nav-item -mt-6 lg:mt-0'>
             <Link
               href='/donate'
