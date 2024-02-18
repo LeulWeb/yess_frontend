@@ -5,7 +5,7 @@ const HomeIntro = () => {
   return (
     <div className="overflow-x-hidden top-0">
       <div
-        className=" relative  hero bg-cover bg-no-repeat min-h-full lg:h-screen lg:overflow-hidden"
+        className=" relative  hero bg-cover bg-no-repeat min-h-full h-screen lg:overflow-hidden"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
         <div className="absolute bg-black/30  bg-cover bg-no-repeat min-h-full lg:h-screen lg:overflow-y-hidden w-screen overflow-x-hidden">
