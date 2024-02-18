@@ -53,11 +53,11 @@ const Footer = () => {
             <form>
               <div className="flex flex-col items-start justify-start pb-2">
                 <label className="text-white text-[20px] py-3">Email</label>
-                <input type="email" className="rounded-lg bg-gray-100 w-72" />
+                <input type="email" className="rounded-lg text-[#0041ff] bg-gray-100 w-72" />
               </div>
               <div className="flex flex-col items-start justify-start pb-2">
                 <label className="text-white text-[20px] py-3">Full Name</label>
-                <input type="text" className="rounded-lg bg-gray-100 w-72" />
+                <input type="text" className="rounded-lg text-[#0041ff] bg-gray-100 w-72" />
               </div>
               <div className="py-3 flex justify-center items-center">
                 <button
