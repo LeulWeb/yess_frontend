@@ -22,14 +22,14 @@ const Suggestion = () => {
       description:
         'There is no a better way to explain my experiences during this past one month Its meeting with the devil Yes! I did meet with the devil I saw the devil I saw his actions I saw his intentions to ruin my days I saw the devil trying to ruin my life Yes…. the devil did walk into my life it did come all the way to make me sad the devil did walk long ways and made many attempts to make me sad Yet…. it didnt succeed Thanks to our seniors thanks to our social values',
       image: blog2,
-      url: '/news2',
+      url: '/blog2',
     },
     {
       title: 'Inspiring story of the man without hands',
       posted: 'March 21, 2020',
       description:'My name is Kebede Awgechew Weldetsadik. I was born and raised in the beautiful rural kebele of Dode districts of Lode Hetosa Wedreda in the Arsi Zone of Oromia Regional State, Ethiopia. No alt text provided for this image Just like the above child … ',
       image: blog3,
-      url: '/news3',
+      url: '/blog3',
     },
   ];
   return (
