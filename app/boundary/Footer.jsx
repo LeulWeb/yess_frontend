@@ -1,10 +1,13 @@
+"use client"
+
+
+import React, { useState } from 'react';
 import { FaLinkedin } from 'react-icons/fa6';
 import { FaTiktok } from 'react-icons/fa';
 import { FaFacebookF } from 'react-icons/fa';
 import { FaTelegram } from 'react-icons/fa6';
 import { CgMail } from 'react-icons/cg';
 import { FaInstagramSquare } from 'react-icons/fa';
-import React from 'react';
 import log from '../assets/logo.png';
 import bg from '../assets/footer.jpg';
 import insta from '../assets/insta.svg';
@@ -16,6 +19,19 @@ import { FaMapMarkerAlt } from 'react-icons/fa';
 import Image from 'next/image';
 
 const Footer = () => {
+
+  const [isDownloading, setIsDownloading] = useState(false);
+
+  const handleDownload = async () => {
+    try {
+      setIsDownloading(true);
+      window.location.href = 'https://download.redshiftbusinessgroup.com/YessEthiopia.apk';
+      setIsDownloading(false);
+    } catch (error) {
+      console.error('Error downloading file:', error);
+      setIsDownloading(false);
+    }
+  };
 
   return (
     <div className="overflow-x-hidden lg:h-[400px] h-full foot bg-cover bg-no-repeat text-white ">
@@ -73,10 +89,11 @@ const Footer = () => {
             <h1 className="text-[25px] py-5 text-white">Download our app</h1>
             <div className="py-3 flex justify-center items-center">
               <button
-                type="submit"
+              onClick={handleDownload} disabled={isDownloading}
+                // type="submit"
                 className="bg-white text-[#0041ff] px-8 py-2 rounded-xl text-[20px]"
               >
-                Download App
+                {isDownloading ? 'Downloading...' : 'Download APK'}
               </button>
             </div>
             <h1 className="text-[25px] text-white py-10">Quick Link</h1>
