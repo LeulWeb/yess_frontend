@@ -91,7 +91,7 @@ const Don = () => {
                     Choose payment{' '}
                   </p>
                   <div className="flex items-center justify-center gap-3 py-3">
-                    <Image src={chapa} alt="" width={100} height={100} />
+                    {/* <Image src={chapa} alt="" width={100} height={100} /> */}
                     <Link href="https://www.paypal.com/donate/?hosted_button_id=QPXMVXM8C3SKS">
                       <Image src={pay} alt="" width={100} height={100} />
                     </Link>
