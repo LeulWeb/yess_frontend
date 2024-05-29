@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 const Don = () => {
   return (
-    <div className="overflow-x-hidden hero lg:-mt-8">
+    <div className="overflow-x-hidden overflow-y-visible hero lg:-mt-8">
       <div className="flex justify-center items-center h-screen w-screen overflow-x-hidden">
         <div
           id="default-modal"
@@ -39,7 +39,8 @@ const Don = () => {
                   </p>
                 </div>
                 <div className="pop text-gray-500 dark:text-gray-400 bg-white rounded-xl px-10 py-3 md:w-[300px]  lg:w-[400px]">
-                <div className="flex gap-4 font-bold text-xl items-center bg-blue-600 text-white w-full px-3 rounded py-2 pt-5 mb-5">
+               <Link href="https://www.paypal.com/donate/?hosted_button_id=QPXMVXM8C3SKS">
+               <div className="flex gap-4 font-bold text-xl items-center bg-blue-600 text-white w-full px-3 rounded py-2 pt-5 mb-5">
           <p className="text-normal font-light text-center">For International Donation</p>
          <div>
          <Link href="https://www.paypal.com/donate/?hosted_button_id=QPXMVXM8C3SKS">
@@ -54,6 +55,7 @@ const Don = () => {
           </Link>
           </div>
           </div>
+               </Link>
                   <div className="flex flex-col gap-2">
                     <label>Phone Number</label>
                     <input
@@ -86,26 +88,37 @@ const Don = () => {
                       className="bg-gray-200 border-none w-full rounded-lg"
                     />
                   </div> */}
-                  <p className="text-center text-gray-500 dark:text-gray-400 pop text-[16px] py-3">
-                    Choose payment{' '}
-                  </p>
-                  <div className="flex items-center justify-center gap-3 py-3">
-                    {/* <Image src={chapa} alt="" width={100} height={100} /> */}
-                    <Link href="https://www.paypal.com/donate/?hosted_button_id=QPXMVXM8C3SKS">
-                      <Image src={pay} alt="" width={100} height={100} />
-                    </Link>
-                  </div>
-                  <div className="flex gap-4 font-light justify-center items-center py-2">
+                    <div className="flex gap-4 font-light justify-center items-center py-2">
           <p className="text-center">For Ethiopia</p> <p className="font-extrabold text-xl mx-2">-</p><p className="text-center"> 1000 60 18 97 605 CBE</p>
         </div>
+                  <Link href="https://www.paypal.com/donate/?hosted_button_id=QPXMVXM8C3SKS">
+               <div className="flex gap-4 font-bold text-xl items-center bg-blue-600 text-white w-full px-3 rounded py-1  mb-5">
+          <p className="text-normal font-light text-center">For International Donation</p>
+         <div>
+         <Link href="https://www.paypal.com/donate/?hosted_button_id=QPXMVXM8C3SKS">
+            <Image
+              src={pay}
+              alt=""
+              width={50}
+              height={50}
+              className="rounded hover:opacity-80 transition-opacity duration-300"
+              title="Click Here"
+            />
+          </Link>
+          </div>
+          </div>
+               </Link>
+                
                   <div className="text-center flex justify-center items-center py-5">
-                    <button
+                   <Link href="https://www.paypal.com/donate/?hosted_button_id=QPXMVXM8C3SKS">
+                   <button
                       data-modal-hide="default-modal"
                       type="button"
                       className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-[16px] pop px-10 py-2 "
                     >
                       Donate Now
                     </button>
+                   </Link>
                   </div>
                 </div>
               </div>
