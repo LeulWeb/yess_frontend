@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 const Don = () => {
   return (
-    <div className="overflow-x-hidden overflow-y-visible hero lg:-mt-8">
+    <div className="overflow-x-hidden overflow-y-visible hero">
       <div className="flex justify-center items-center h-screen w-screen overflow-x-hidden">
         <div
           id="default-modal"
@@ -80,14 +80,6 @@ const Don = () => {
                       </select>
                     </div>
                   </div>
-                  {/* <div className="flex flex-col gap-2 py-2">
-                    <label>What to consider?</label>
-                    <textarea
-                      cols={20}
-                      rows={3}
-                      className="bg-gray-200 border-none w-full rounded-lg"
-                    />
-                  </div> */}
                     <div className="flex gap-4 font-light justify-center items-center py-2">
           <p className="text-center">For Ethiopia</p> <p className="font-extrabold text-xl mx-2">-</p><p className="text-center"> 1000 60 18 97 605 CBE</p>
         </div>
