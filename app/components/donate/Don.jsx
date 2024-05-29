@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const Don = () => {
   return (
-    <div className="overflow-x-hidden hero">
+    <div className="overflow-x-hidden hero lg:-mt-8">
       <div className="flex justify-center items-center h-screen w-screen overflow-x-hidden">
         <div
           id="default-modal"
@@ -38,6 +38,21 @@ const Don = () => {
                   </p>
                 </div>
                 <div className="pop text-gray-500 dark:text-gray-400 bg-white rounded-xl px-10 py-3 md:w-[300px]  lg:w-[400px]">
+                <div className="flex gap-4 font-bold text-xl items-center bg-blue-600 text-white w-full px-3 rounded py-2 pt-5 mb-5">
+          <p className="text-normal font-light text-center">For International Donation</p>
+         <div>
+         <Link href="https://www.paypal.com/donate/?hosted_button_id=QPXMVXM8C3SKS">
+            <Image
+              src={pay}
+              alt=""
+              width={50}
+              height={50}
+              className="rounded hover:opacity-80 transition-opacity duration-300"
+              title="Click Here"
+            />
+          </Link>
+          </div>
+          </div>
                   <div className="flex flex-col gap-2">
                     <label>Phone Number</label>
                     <input
@@ -50,8 +65,9 @@ const Don = () => {
                       <label>Currency</label>
                       <input
                         type="text"
-                        className="bg-gray-200 w-full border-none rounded-lg"
-                        placeholder="ETB , Birr"
+                        className="bg-gray-200 w-full border-none rounded-lg placeholder:text-center placeholder:font-bold "
+                        placeholder="USD, $"
+                        disabled
                       />
                     </div>
                     <div className="flex flex-col gap-2">
@@ -63,14 +79,14 @@ const Don = () => {
                       </select>
                     </div>
                   </div>
-                  <div className="flex flex-col gap-2 py-2">
+                  {/* <div className="flex flex-col gap-2 py-2">
                     <label>What to consider?</label>
                     <textarea
                       cols={20}
                       rows={3}
                       className="bg-gray-200 border-none w-full rounded-lg"
                     />
-                  </div>
+                  </div> */}
                   <p className="text-center text-gray-500 dark:text-gray-400 pop text-[16px] py-3">
                     Choose payment{' '}
                   </p>
@@ -80,6 +96,9 @@ const Don = () => {
                       <Image src={pay} alt="" width={100} height={100} />
                     </Link>
                   </div>
+                  <div className="flex gap-4 font-light justify-center items-center py-2">
+          <p className="text-center">For Ethiopia</p> <p className="font-extrabold text-xl mx-2">-</p><p className="text-center"> 1000 60 18 97 605 CBE</p>
+        </div>
                   <div className="text-center flex justify-center items-center py-5">
                     <button
                       data-modal-hide="default-modal"
