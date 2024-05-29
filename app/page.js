@@ -40,7 +40,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="story text-black overflow-x-hidden -mt-28 z-30">
+    <div className="story text-black overflow-x-hidden -mt-28 z-30 bg-white">
       <div className="overflow-x-hidden">
         <HomeIntro />
       </div>
