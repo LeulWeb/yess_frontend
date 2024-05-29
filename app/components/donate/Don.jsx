@@ -92,7 +92,7 @@ const Don = () => {
           <p className="text-center">For Ethiopia</p> <p className="font-extrabold text-xl mx-2">-</p><p className="text-center"> 1000 60 18 97 605 CBE</p>
         </div>
                   <Link href="https://www.paypal.com/donate/?hosted_button_id=QPXMVXM8C3SKS">
-               <div className="flex gap-4 font-bold text-xl items-center bg-blue-600 text-white w-full px-3 rounded py-1  my-4">
+               <div className="flex gap-4 font-bold text-xl items-center bg-blue-600 text-white w-full px-3 rounded py-1  my-2">
           <p className="text-normal font-light text-center">For International Donation</p>
          <div>
          <Link href="https://www.paypal.com/donate/?hosted_button_id=QPXMVXM8C3SKS">
