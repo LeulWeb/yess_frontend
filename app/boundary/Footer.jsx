@@ -46,7 +46,7 @@ const Footer = () => {
               <div className="items-center justify-start flex flex-col">
                 <div className="flex gap-5 text-white py-2">
                   <IoCall size={20} />
-                  <p className="font-light">+251 939100000</p>
+                  <p className="font-light">+251 901299902</p>
                 </div>
                 <div className="flex gap-5 text-white">
                   <FaMapMarkerAlt size={20} />
