@@ -1,9 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import you from '../../assets/homi.jpg';
-import chapa from '../../assets/chapa.jpg';
+// import chapa from '../../assets/chapa.jpg';
 import pay from '../../assets/pay.jpg';
 import Link from 'next/link';
+
 
 const Don = () => {
   return (
@@ -63,12 +64,10 @@ const Don = () => {
                   <div className="flex justify-center items-center gap-10 py-2 pt-5">
                     <div className="flex flex-col gap-2">
                       <label>Currency</label>
-                      <input
-                        type="text"
-                        className="bg-gray-200 w-full border-none rounded-lg placeholder:text-center placeholder:font-bold "
-                        placeholder="USD, $"
-                        disabled
-                      />
+                      <select className="bg-gray-200 border-none rounded-lg w-32">
+                        <option>USD, $</option>
+                        <option>ETB, Birr</option>
+                      </select>
                     </div>
                     <div className="flex flex-col gap-2">
                       <label>Duration</label>
