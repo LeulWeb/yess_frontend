@@ -17,6 +17,7 @@ import facebook from '../assets/facebook.svg';
 import { IoCall } from 'react-icons/io5';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Footer = () => {
 
@@ -99,20 +100,24 @@ const Footer = () => {
             <h1 className="text-[25px] text-white py-10">Quick Link</h1>
             <div className="flex justify-center items-center gap-6 pt-4">
               <div className="py-3 flex justify-center items-center">
+                <Link href="/about">
                 <button
                   type="submit"
                   className="bg-white text-[#0041ff] px-8 py-2 rounded-xl text-[20px]"
                 >
-                  Join us
+                  About us
                 </button>
+                </Link>
               </div>
               <div className="py-3 flex justify-center items-center">
+                <Link href="/donate">
                 <button
                   type="submit"
                   className="bg-white text-[#0041ff] px-8 py-2 rounded-xl text-[20px]"
                 >
                   Donate
                 </button>
+                </Link>
               </div>
             </div>
           </div>
