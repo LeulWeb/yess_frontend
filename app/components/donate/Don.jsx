@@ -56,8 +56,8 @@ const Don = () => {
           </div>
           </div>
                </Link>
-                  <div className="flex flex-col gap-2">
-                    <label>Phone Number</label>
+                  <div className="flex text-gray-800 justify-center items-center text-center gap-4">
+                    <label>Phone</label>
                     <input
                       type="text"
                       className="bg-gray-200 border-none w-full rounded-lg"
