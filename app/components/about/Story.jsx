@@ -46,11 +46,11 @@ const Story = () => {
             <div className="flex flex-col justify-center items-center">
               <h1 className="text-[#0041ff] font-bold tes">Value</h1>
               <p className="text-[28px] text-black text-start">
-                1. Empowerment
+                1. Collaboration
                 <br />
-                2. Collaboration
+                2. Service
                 <br />
-                3. Inclusive
+                3. Proactiveness
                 <br />
                 4. Innovation
               </p>
